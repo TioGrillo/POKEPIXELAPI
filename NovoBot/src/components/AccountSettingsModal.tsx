@@ -33,6 +33,8 @@ export function AccountSettingsModal({ account, zones, onSave, onClose }: Accoun
     epic: true,
     legendary: true,
     mythic: true,
+    commonBall: 'auto',
+    shinyBall: 'auto',
   });
 
   // State: Auto-Venda (Loot & Pokémons)
@@ -283,24 +285,91 @@ export function AccountSettingsModal({ account, zones, onSave, onClose }: Accoun
                 </div>
               </div>
 
-              <div className="bg-[rgb(var(--bg-surface))] border border-[rgb(var(--border))] rounded-xl p-4 space-y-3">
+              <div className="bg-[rgb(var(--bg-surface))] border border-[rgb(var(--border))] rounded-xl p-4 space-y-4">
                 <span className="text-xs font-bold text-white flex items-center gap-2">
                   <Crosshair size={16} className="text-amber-400" />
                   Pokébola Utilizada nas Capturas
                 </span>
-                <span className="text-[10px] text-[rgb(var(--text-muted))] block mb-2">
-                  Selecione "Automático (Melhor Disponível)" para usar sempre a pokébola com maior taxa de captura no seu inventário e alternar quando acabar, não parando a captura.
-                </span>
-                <select
-                  value={captureConfig.ball || 'auto'}
-                  onChange={(e) => setCaptureConfig({ ...captureConfig, ball: e.target.value })}
-                  className="w-full bg-[rgb(var(--bg-deep))] border border-[rgb(var(--border))] rounded-lg px-3 py-2 text-xs text-white focus:outline-none focus:border-amber-500 cursor-pointer"
-                >
-                  <option value="auto">Automático (Melhor Disponível)</option>
-                  <option value="capsule_basic">Pixel Ball (Comum)</option>
-                  <option value="capsule_great">Great Ball (Incomum)</option>
-                  <option value="capsule_ultra">Ultra Ball (Rara)</option>
-                </select>
+
+                {/* Bola para Pokémons Comuns */}
+                <div className="space-y-2">
+                  <span className="text-[10px] font-semibold text-[rgb(var(--text-muted))] uppercase tracking-wider">Captura Geral (Comum/Raro/Épico...)</span>
+                  <div className="grid grid-cols-5 gap-2">
+                    {[
+                      { id: 'auto', label: 'Auto', emoji: '✨', color: 'text-amber-400', border: 'border-amber-500/60', bg: 'bg-amber-500/10' },
+                      { id: 'capsule_basic',  label: 'Pixel', img: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png' },
+                      { id: 'capsule_great',  label: 'Great', img: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/great-ball.png' },
+                      { id: 'capsule_ultra',  label: 'Ultra', img: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ultra-ball.png' },
+                      { id: 'capsule_master', label: 'Master', img: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/master-ball.png' },
+                    ].map((ball) => {
+                      const currentVal = (captureConfig as any).commonBall || captureConfig.ball || 'auto';
+                      const isSelected = currentVal === ball.id;
+                      return (
+                        <button
+                          key={ball.id}
+                          type="button"
+                          onClick={() => setCaptureConfig({ ...captureConfig, commonBall: ball.id, ball: ball.id })}
+                          className={`flex flex-col items-center gap-1 p-2 rounded-xl border-2 transition-all cursor-pointer ${
+                            isSelected
+                              ? (ball.color ? `${ball.border} ${ball.bg}` : 'border-amber-400 bg-amber-400/10')
+                              : 'border-[rgb(var(--border))] bg-[rgb(var(--bg-deep))] hover:border-[rgb(var(--text-muted))]'
+                          }`}
+                        >
+                          {ball.img ? (
+                            <img src={ball.img} alt={ball.label} className="w-8 h-8 object-contain pixelated" />
+                          ) : (
+                            <span className={`text-xl ${ball.color}`}>{ball.emoji}</span>
+                          )}
+                          <span className={`text-[9px] font-bold ${isSelected ? 'text-amber-400' : 'text-[rgb(var(--text-muted))]'}`}>
+                            {ball.label}
+                          </span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                {/* Bola para Shinies */}
+                <div className="space-y-2 pt-3 border-t border-[rgb(var(--border))]/50">
+                  <span className="text-[10px] font-semibold text-[rgb(var(--text-muted))] uppercase tracking-wider">Captura Shiny / Especial</span>
+                  <div className="grid grid-cols-5 gap-2">
+                    {[
+                      { id: 'auto', label: 'Auto', emoji: '✨', color: 'text-amber-400', border: 'border-amber-500/60', bg: 'bg-amber-500/10' },
+                      { id: 'capsule_basic',  label: 'Pixel', img: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png' },
+                      { id: 'capsule_great',  label: 'Great', img: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/great-ball.png' },
+                      { id: 'capsule_ultra',  label: 'Ultra', img: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ultra-ball.png' },
+                      { id: 'capsule_master', label: 'Master', img: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/master-ball.png' },
+                    ].map((ball) => {
+                      const currentVal = (captureConfig as any).shinyBall || captureConfig.ball || 'auto';
+                      const isSelected = currentVal === ball.id;
+                      return (
+                        <button
+                          key={ball.id}
+                          type="button"
+                          onClick={() => setCaptureConfig({ ...captureConfig, shinyBall: ball.id })}
+                          className={`flex flex-col items-center gap-1 p-2 rounded-xl border-2 transition-all cursor-pointer ${
+                            isSelected
+                              ? (ball.color ? `${ball.border} ${ball.bg}` : 'border-yellow-400 bg-yellow-400/10')
+                              : 'border-[rgb(var(--border))] bg-[rgb(var(--bg-deep))] hover:border-[rgb(var(--text-muted))]'
+                          }`}
+                        >
+                          {ball.img ? (
+                            <img src={ball.img} alt={ball.label} className="w-8 h-8 object-contain pixelated" />
+                          ) : (
+                            <span className={`text-xl ${ball.color}`}>{ball.emoji}</span>
+                          )}
+                          <span className={`text-[9px] font-bold ${isSelected ? 'text-yellow-400' : 'text-[rgb(var(--text-muted))]'}`}>
+                            {ball.label}
+                          </span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                <p className="text-[10px] text-[rgb(var(--text-muted))] italic">
+                  ✨ Auto = usa a melhor disponível no inventário automaticamente.
+                </p>
               </div>
             </div>
           )}

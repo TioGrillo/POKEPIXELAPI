@@ -19,7 +19,9 @@ export interface Account {
     epic: boolean;
     legendary: boolean;
     mythic: boolean;
-    ball?: string; // e.g. 'auto', 'capsule_basic', 'capsule_great', 'capsule_ultra'
+    ball?: string; // legacy: 'auto', 'capsule_basic', 'capsule_great', 'capsule_ultra'
+    commonBall?: string; // ball for common/rare/epic captures
+    shinyBall?: string;  // ball for shiny/special captures
   };
   globalShinyMode: boolean;
 

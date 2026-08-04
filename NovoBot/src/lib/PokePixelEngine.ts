@@ -538,23 +538,38 @@ export class PokePixelEngine {
             capsules.sort((a: any, b: any) => (b.catch_multiplier || 0) - (a.catch_multiplier || 0));
             this.bestCapsule = capsules[0].item_id;
             
-            const selectedCommonBall = (this.captureConfig as any).commonBall || this.captureConfig.ball || 'auto';
-            const selectedShinyBall = (this.captureConfig as any).shinyBall || this.captureConfig.ball || 'auto';
+            // Read commonBall and shinyBall, falling back to legacy 'ball' field, then to 'auto'
+            const cfg = this.captureConfig as any;
+            const selectedCommonBall = cfg.commonBall || cfg.ball || 'auto';
+            const selectedShinyBall  = cfg.shinyBall  || cfg.ball || 'auto';
+
+            this.pushLog(`[BALL] Common=${selectedCommonBall} | Shiny=${selectedShinyBall} | Inventory: ${capsules.map((c: any) => c.item_id).join(', ')}`);
 
             if (selectedCommonBall === 'auto') {
-                const ultra = capsules.find((c: any) => c.item_id === 'capsule_ultra');
-                this.commonCapsule = ultra ? ultra.item_id : capsules[0].item_id;
+                this.commonCapsule = capsules[0].item_id; // best available
             } else {
                 const requested = capsules.find((c: any) => c.item_id === selectedCommonBall);
-                this.commonCapsule = requested ? requested.item_id : capsules[0].item_id;
+                if (requested) {
+                    this.commonCapsule = requested.item_id;
+                } else {
+                    this.pushLog(`[BALL] ⚠ Bola "${selectedCommonBall}" nao encontrada no inventario. Usando: ${capsules[0].item_id}`);
+                    this.commonCapsule = capsules[0].item_id;
+                }
             }
             
             if (selectedShinyBall === 'auto') {
-                this.shinyCapsule = capsules[0].item_id;
+                this.shinyCapsule = capsules[0].item_id; // best available
             } else {
                 const requested = capsules.find((c: any) => c.item_id === selectedShinyBall);
-                this.shinyCapsule = requested ? requested.item_id : capsules[0].item_id;
+                if (requested) {
+                    this.shinyCapsule = requested.item_id;
+                } else {
+                    this.pushLog(`[BALL] ⚠ Bola shiny "${selectedShinyBall}" nao encontrada no inventario. Usando: ${capsules[0].item_id}`);
+                    this.shinyCapsule = capsules[0].item_id;
+                }
             }
+
+            this.pushLog(`[BALL] ✔ Configurado: Common=${this.commonCapsule} | Shiny=${this.shinyCapsule}`);
         }
     } catch(e) {}
     
