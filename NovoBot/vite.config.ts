@@ -4,6 +4,7 @@ import obfuscatorPlugin from 'vite-plugin-javascript-obfuscator'
 
 // https://vite.dev/config/
 export default defineConfig(({ command }) => ({
+  base: './',
   plugins: [
     react(),
     // @ts-ignore
