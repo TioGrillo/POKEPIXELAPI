@@ -166,7 +166,7 @@ export function AuthOverlay({ children }: { children: React.ReactNode }) {
 
           <div className="p-8 flex flex-col items-center">
               <div className="w-20 h-20 bg-[rgb(var(--bg-deep))] rounded-2xl border border-[rgb(var(--border))] flex items-center justify-center mb-6 shadow-inner relative group cursor-pointer" onClick={() => setShowThemes(!showThemes)}>
-                <img src="/LUG.png" alt="Logo" className="w-12 h-12 drop-shadow-[0_0_10px_rgba(var(--accent),0.5)]" />
+                <img src="./LUG.png" alt="Logo" className="w-12 h-12 drop-shadow-[0_0_10px_rgba(var(--accent),0.5)]" />
                 <div className="absolute -bottom-2 -right-2 bg-[rgb(var(--bg-surface))] border border-[rgb(var(--border))] rounded-full p-1.5 opacity-0 group-hover:opacity-100 transition-opacity">
                     <Palette size={14} className="text-[rgb(var(--text-muted))]" />
                 </div>

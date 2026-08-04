@@ -165,7 +165,7 @@ function SoundButton({
     e.stopPropagation();
     if (isNone) return;
     try {
-      const audio = new Audio(`/sounds/${name}`);
+      const audio = new Audio(`./sounds/${name}`);
       audio.volume = 0.5;
       audio.play().catch(() => {});
     } catch {}
@@ -888,7 +888,7 @@ export default function SettingsDialog({ onClose, accounts = [], onSaveAccounts 
       case 'sobre':
         return (
           <div className="flex flex-col items-center justify-center py-8 space-y-4">
-            <img src="/LUG.png" alt="Bot Logo" className="w-24 h-24 mb-2 drop-shadow-[0_0_15px_rgba(var(--accent),0.5)]" />
+            <img src="./LUG.png" alt="Bot Logo" className="w-24 h-24 mb-2 drop-shadow-[0_0_15px_rgba(var(--accent),0.5)]" />
             <h2 className="text-xl font-bold text-[rgb(var(--text-primary))] tracking-tight">
               POKE PIXEL MANAGER
             </h2>
