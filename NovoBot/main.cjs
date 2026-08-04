@@ -13,31 +13,47 @@ function formatProxyUrl(str) {
   if (!str || !str.trim()) return null;
   let s = str.trim();
   
-  if (s.startsWith('http://') || s.startsWith('https://')) {
+  // Já está formatado com protocolo
+  if (s.startsWith('http://') || s.startsWith('https://') || s.startsWith('socks5://') || s.startsWith('socks4://')) {
     return s;
   }
   
-  // Formato: host:port:user:pass (ex: brd.superproxy.io:44445:user:pass)
-  const parts = s.split(':');
-  if (parts.length === 4) {
-    const host = parts[0];
-    const port = parts[1];
-    const user = parts[2];
-    const pass = parts[3];
-    return `http://${user}:${pass}@${host}:${port}`;
-  }
-
   // Formato: user:pass@host:port
   if (s.includes('@')) {
     return `http://${s}`;
   }
   
-  // Formato: host:port
-  if (parts.length === 2) {
-    return `http://${parts[0]}:${parts[1]}`;
+  // Formato: host:port:user:pass
+  // ATENÇÃO: host e port são sempre os 2 primeiros tokens separados por ':'
+  // user e pass são o 3° e 4° tokens — mas a SENHA pode ter ':' dentro dela (BrightData usa isso)
+  // Ex: brd.superproxy.io:44445:brd-customer-xyz-ip-1.2.3.4:minhaSenha
+  const firstColon = s.indexOf(':');
+  if (firstColon === -1) return `http://${s}`;
+  
+  const host = s.substring(0, firstColon);
+  const rest1 = s.substring(firstColon + 1); // "port:user:pass" ou "port"
+  
+  const secondColon = rest1.indexOf(':');
+  if (secondColon === -1) {
+    // Formato: host:port — sem autenticação
+    return `http://${host}:${rest1}`;
   }
   
-  return `http://${s}`;
+  const port = rest1.substring(0, secondColon);
+  const rest2 = rest1.substring(secondColon + 1); // "user:pass" — user pode ter ':' dentro
+  
+  // Separar user e pass: user é tudo antes do ÚLTIMO ':' que não faz parte do user name
+  // BrightData: "brd-customer-hl_xxx-zone-xxx-ip-1.2.3.4:PASSWORD" — a senha é sempre o ÚLTIMO token
+  const lastColon = rest2.lastIndexOf(':');
+  if (lastColon === -1) {
+    // Formato: host:port:user — sem senha
+    return `http://${rest2}@${host}:${port}`;
+  }
+  
+  const user = rest2.substring(0, lastColon);
+  const pass = rest2.substring(lastColon + 1);
+  
+  return `http://${encodeURIComponent(user)}:${encodeURIComponent(pass)}@${host}:${port}`;
 }
 
 function createWindow() {

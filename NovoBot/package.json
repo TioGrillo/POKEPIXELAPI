@@ -1,7 +1,7 @@
 {
   "name": "novobot",
   "private": true,
-  "version": "1.0.6",
+  "version": "1.0.8",
   "type": "module",
   "scripts": {
     "dev": "concurrently \"vite\" \"wait-on tcp:5173 && npm run electron\"",

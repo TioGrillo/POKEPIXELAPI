@@ -333,7 +333,7 @@ export function AddAccountModal({ onClose, onAdd }: AddAccountModalProps) {
 
           if (!tokenVal) throw new Error('Token de login não retornado');
 
-          // 8. Cria Personagem / Trainer com o nick final aceito
+          // 8. Cria Personagem / Trainer com retry para CONNECTION_QUEUED
           const trainerBody = {
             name: currentNick,
             gender: currentGender,
@@ -343,16 +343,42 @@ export function AddAccountModal({ onClose, onAdd }: AddAccountModalProps) {
               : { actor_id: '1', character_name: '$TrainerMale01', character_index: '0', face_name: 'Actor1', face_index: '0' },
           };
 
-          const trainerRes = await netRequest({
-            url: `${GAME_URL}/trainer`,
-            method: 'POST',
-            headers: { Authorization: `Bearer ${tokenVal}` },
-            data: trainerBody,
-            proxyUrl
-          });
+          let trainerOk = false;
+          for (let trainerAttempt = 0; trainerAttempt < 20; trainerAttempt++) {
+            const trainerRes = await netRequest({
+              url: `${GAME_URL}/trainer`,
+              method: 'POST',
+              headers: { Authorization: `Bearer ${tokenVal}` },
+              data: trainerBody,
+              proxyUrl
+            });
 
-          if (trainerRes.status !== 200 && trainerRes.status !== 201) {
+            if (trainerRes.status === 200 || trainerRes.status === 201) {
+              trainerOk = true;
+              break;
+            }
+
+            // Servidor colocou na fila — aguardar e retentar
+            const isQueued = trainerRes.status === 429 ||
+              trainerRes.data?.error?.code === 'CONNECTION_QUEUED' ||
+              JSON.stringify(trainerRes.data).includes('CONNECTION_QUEUED');
+
+            if (isQueued) {
+              const queueData = trainerRes.data?.queue || {};
+              const pollMs = queueData.poll_after_ms || 12000;
+              const waitSec = queueData.estimated_wait_seconds || Math.ceil(pollMs / 1000);
+              const pos = queueData.position || '?';
+              log(`⏳ [Thread ${workerId}] Servidor em fila (pos ${pos}) para "${currentNick}". Aguardando ${waitSec}s...`);
+              await sleep(pollMs + 2000); // +2s buffer
+              continue;
+            }
+
+            // Qualquer outro erro — lança para o catch
             throw new Error(`Erro personagem: HTTP ${trainerRes.status} - ${JSON.stringify(trainerRes.data)}`);
+          }
+
+          if (!trainerOk) {
+            throw new Error(`Timeout: servidor não admitiu personagem "${currentNick}" após 20 tentativas.`);
           }
 
           log(`✅ [Thread ${workerId}] Conta "${currentNick}" criada e inicializada com SUCESSO!`);
