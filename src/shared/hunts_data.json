@@ -1,0 +1,5795 @@
+[
+  {
+    "id": "hunt_sunkern",
+    "name": "Caça de Sunkern",
+    "type": "hunt",
+    "map_id": 7,
+    "legacy_map_id": 7,
+    "theme_element": "grass",
+    "world": "kanto",
+    "min_level": 1,
+    "max_level": 1,
+    "recommended_level": 7,
+    "progression_rank": 1,
+    "power_score": 114,
+    "difficulty": "Iniciante",
+    "elements": [
+      "grass"
+    ],
+    "encounters": [
+      {
+        "species_id": "sunkern",
+        "min_level": 7,
+        "max_level": 7,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 42.96877387393651,
+    "map_y": 43.98042821729244
+  },
+  {
+    "id": "hunt_caterpie",
+    "name": "Caça de Caterpie",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 8,
+    "theme_element": "bug",
+    "world": "kanto",
+    "min_level": 1,
+    "max_level": 1,
+    "recommended_level": 1,
+    "progression_rank": 2,
+    "power_score": 125,
+    "difficulty": "Iniciante",
+    "elements": [
+      "bug"
+    ],
+    "encounters": [
+      {
+        "species_id": "caterpie",
+        "min_level": 1,
+        "max_level": 1,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 77.55932994312268,
+    "map_y": 21.594052886382848
+  },
+  {
+    "id": "hunt_weedle",
+    "name": "Caça de Weedle",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 10,
+    "theme_element": "bug",
+    "world": "kanto",
+    "min_level": 1,
+    "max_level": 1,
+    "recommended_level": 1,
+    "progression_rank": 3,
+    "power_score": 127,
+    "difficulty": "Iniciante",
+    "elements": [
+      "bug",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "weedle",
+        "min_level": 1,
+        "max_level": 1,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 44.48614203491435,
+    "map_y": 75.16656025585918
+  },
+  {
+    "id": "hunt_pichu",
+    "name": "Caça de Pichu",
+    "type": "hunt",
+    "map_id": 9,
+    "legacy_map_id": 9,
+    "theme_element": "electric",
+    "world": "kanto",
+    "min_level": 1,
+    "max_level": 1,
+    "recommended_level": 2,
+    "progression_rank": 4,
+    "power_score": 126,
+    "difficulty": "Iniciante",
+    "elements": [
+      "electric"
+    ],
+    "encounters": [
+      {
+        "species_id": "pichu",
+        "min_level": 2,
+        "max_level": 2,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 50.45656667340869,
+    "map_y": 19.295789418873973
+  },
+  {
+    "id": "hunt_kakuna",
+    "name": "Caça de Kakuna",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 11,
+    "theme_element": "bug",
+    "world": "kanto",
+    "min_level": 2,
+    "max_level": 2,
+    "recommended_level": 7,
+    "progression_rank": 5,
+    "power_score": 127,
+    "difficulty": "Iniciante",
+    "elements": [
+      "bug",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "kakuna",
+        "min_level": 7,
+        "max_level": 7,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 45.71818728267567,
+    "map_y": 71.72310083399472
+  },
+  {
+    "id": "hunt_metapod",
+    "name": "Caça de Metapod",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 12,
+    "theme_element": "bug",
+    "world": "kanto",
+    "min_level": 2,
+    "max_level": 2,
+    "recommended_level": 7,
+    "progression_rank": 6,
+    "power_score": 131,
+    "difficulty": "Iniciante",
+    "elements": [
+      "bug"
+    ],
+    "encounters": [
+      {
+        "species_id": "metapod",
+        "min_level": 7,
+        "max_level": 7,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 48.85687831370196,
+    "map_y": 74.48913210954436
+  },
+  {
+    "id": "hunt_tyrogue",
+    "name": "Caça de Tyrogue",
+    "type": "hunt",
+    "map_id": 13,
+    "legacy_map_id": 13,
+    "theme_element": "fighting",
+    "world": "kanto",
+    "min_level": 3,
+    "max_level": 3,
+    "recommended_level": 8,
+    "progression_rank": 7,
+    "power_score": 133,
+    "difficulty": "Iniciante",
+    "elements": [
+      "fighting"
+    ],
+    "encounters": [
+      {
+        "species_id": "tyrogue",
+        "min_level": 8,
+        "max_level": 8,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 19.026504914294364,
+    "map_y": 72.0870259499166
+  },
+  {
+    "id": "hunt_sentret",
+    "name": "Caça de Sentret",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 15,
+    "theme_element": "normal",
+    "world": "kanto",
+    "min_level": 3,
+    "max_level": 3,
+    "recommended_level": 2,
+    "progression_rank": 8,
+    "power_score": 148,
+    "difficulty": "Iniciante",
+    "elements": [
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "sentret",
+        "min_level": 2,
+        "max_level": 2,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 42.52417498542361,
+    "map_y": 40.656601767978664
+  },
+  {
+    "id": "hunt_igglybuff",
+    "name": "Caça de Igglybuff",
+    "type": "hunt",
+    "map_id": 20,
+    "legacy_map_id": 18,
+    "theme_element": "fairy",
+    "world": "kanto",
+    "min_level": 4,
+    "max_level": 4,
+    "recommended_level": 3,
+    "progression_rank": 9,
+    "power_score": 154,
+    "difficulty": "Iniciante",
+    "elements": [
+      "fairy",
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "igglybuff",
+        "min_level": 3,
+        "max_level": 3,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 23.975247141020724,
+    "map_y": 16.785032779802055
+  },
+  {
+    "id": "hunt_smeargle",
+    "name": "Caça de Smeargle",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 14,
+    "theme_element": "normal",
+    "world": "kanto",
+    "min_level": 4,
+    "max_level": 4,
+    "recommended_level": 75,
+    "progression_rank": 10,
+    "power_score": 144,
+    "difficulty": "Iniciante",
+    "elements": [
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "smeargle",
+        "min_level": 75,
+        "max_level": 75,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 76.96893569246306,
+    "map_y": 24.984083567089968
+  },
+  {
+    "id": "hunt_cleffa",
+    "name": "Caça de Cleffa",
+    "type": "hunt",
+    "map_id": 20,
+    "legacy_map_id": 20,
+    "theme_element": "fairy",
+    "world": "kanto",
+    "min_level": 5,
+    "max_level": 5,
+    "recommended_level": 3,
+    "progression_rank": 11,
+    "power_score": 155,
+    "difficulty": "Iniciante",
+    "elements": [
+      "fairy"
+    ],
+    "encounters": [
+      {
+        "species_id": "cleffa",
+        "min_level": 3,
+        "max_level": 3,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 67.83350160266619,
+    "map_y": 70.35794838167806
+  },
+  {
+    "id": "hunt_hoppip",
+    "name": "Caça de Hoppip",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 16,
+    "theme_element": "flying",
+    "world": "kanto",
+    "min_level": 5,
+    "max_level": 5,
+    "recommended_level": 10,
+    "progression_rank": 12,
+    "power_score": 152,
+    "difficulty": "Iniciante",
+    "elements": [
+      "flying",
+      "grass"
+    ],
+    "encounters": [
+      {
+        "species_id": "hoppip",
+        "min_level": 10,
+        "max_level": 10,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 19.92315934298866,
+    "map_y": 17.02766336736103
+  },
+  {
+    "id": "hunt_togepi",
+    "name": "Caça de Togepi",
+    "type": "hunt",
+    "map_id": 20,
+    "legacy_map_id": 24,
+    "theme_element": "fairy",
+    "world": "kanto",
+    "min_level": 6,
+    "max_level": 6,
+    "recommended_level": 8,
+    "progression_rank": 13,
+    "power_score": 164,
+    "difficulty": "Iniciante",
+    "elements": [
+      "fairy"
+    ],
+    "encounters": [
+      {
+        "species_id": "togepi",
+        "min_level": 8,
+        "max_level": 8,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 69.1919361892064,
+    "map_y": 67.28292249516994
+  },
+  {
+    "id": "hunt_zubat",
+    "name": "Caça de Zubat",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 21,
+    "theme_element": "flying",
+    "world": "kanto",
+    "min_level": 6,
+    "max_level": 6,
+    "recommended_level": 4,
+    "progression_rank": 14,
+    "power_score": 159,
+    "difficulty": "Iniciante",
+    "elements": [
+      "flying",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "zubat",
+        "min_level": 4,
+        "max_level": 4,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 86.53756458996392,
+    "map_y": 61.04317810832109
+  },
+  {
+    "id": "hunt_pidgey",
+    "name": "Caça de Pidgey",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 22,
+    "theme_element": "flying",
+    "world": "kanto",
+    "min_level": 7,
+    "max_level": 7,
+    "recommended_level": 4,
+    "progression_rank": 15,
+    "power_score": 160,
+    "difficulty": "Iniciante",
+    "elements": [
+      "flying",
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "pidgey",
+        "min_level": 4,
+        "max_level": 4,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 46.40430744354528,
+    "map_y": 18.45920664572056
+  },
+  {
+    "id": "hunt_swinub",
+    "name": "Caça de Swinub",
+    "type": "hunt",
+    "map_id": 23,
+    "legacy_map_id": 27,
+    "theme_element": "ground",
+    "world": "kanto",
+    "min_level": 8,
+    "max_level": 8,
+    "recommended_level": 8,
+    "progression_rank": 16,
+    "power_score": 168,
+    "difficulty": "Iniciante",
+    "elements": [
+      "ground",
+      "ice"
+    ],
+    "encounters": [
+      {
+        "species_id": "swinub",
+        "min_level": 8,
+        "max_level": 8,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 20.287138740681147,
+    "map_y": 75.48709457849274
+  },
+  {
+    "id": "hunt_diglett",
+    "name": "Caça de Diglett",
+    "type": "hunt",
+    "map_id": 23,
+    "legacy_map_id": 23,
+    "theme_element": "ground",
+    "world": "kanto",
+    "min_level": 8,
+    "max_level": 8,
+    "recommended_level": 7,
+    "progression_rank": 17,
+    "power_score": 162,
+    "difficulty": "Iniciante",
+    "elements": [
+      "ground"
+    ],
+    "encounters": [
+      {
+        "species_id": "diglett",
+        "min_level": 7,
+        "max_level": 7,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 17.32266020190439,
+    "map_y": 41.14699643312238
+  },
+  {
+    "id": "hunt_rattata",
+    "name": "Caça de Rattata",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 26,
+    "theme_element": "normal",
+    "world": "kanto",
+    "min_level": 9,
+    "max_level": 9,
+    "recommended_level": 3,
+    "progression_rank": 18,
+    "power_score": 168,
+    "difficulty": "Iniciante",
+    "elements": [
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "rattata",
+        "min_level": 3,
+        "max_level": 3,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 68.72808941129104,
+    "map_y": 40.67611847038557
+  },
+  {
+    "id": "hunt_hoothoot",
+    "name": "Caça de Hoothoot",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 25,
+    "theme_element": "flying",
+    "world": "kanto",
+    "min_level": 9,
+    "max_level": 9,
+    "recommended_level": 5,
+    "progression_rank": 19,
+    "power_score": 166,
+    "difficulty": "Iniciante",
+    "elements": [
+      "flying",
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "hoothoot",
+        "min_level": 5,
+        "max_level": 5,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 87.362784688456,
+    "map_y": 68.56667181865353
+  },
+  {
+    "id": "hunt_spinarak",
+    "name": "Caça de Spinarak",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 30,
+    "theme_element": "bug",
+    "world": "kanto",
+    "min_level": 10,
+    "max_level": 10,
+    "recommended_level": 6,
+    "progression_rank": 20,
+    "power_score": 176,
+    "difficulty": "Iniciante",
+    "elements": [
+      "bug",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "spinarak",
+        "min_level": 6,
+        "max_level": 6,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 81.13654421603889,
+    "map_y": 23.82474322626533
+  },
+  {
+    "id": "hunt_ledyba",
+    "name": "Caça de Ledyba",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 28,
+    "theme_element": "bug",
+    "world": "kanto",
+    "min_level": 11,
+    "max_level": 11,
+    "recommended_level": 6,
+    "progression_rank": 21,
+    "power_score": 169,
+    "difficulty": "Iniciante",
+    "elements": [
+      "bug",
+      "flying"
+    ],
+    "encounters": [
+      {
+        "species_id": "ledyba",
+        "min_level": 6,
+        "max_level": 6,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 72.9923202583702,
+    "map_y": 22.139455440717132
+  },
+  {
+    "id": "hunt_meowth",
+    "name": "Caça de Meowth",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 29,
+    "theme_element": "normal",
+    "world": "kanto",
+    "min_level": 11,
+    "max_level": 11,
+    "recommended_level": 10,
+    "progression_rank": 22,
+    "power_score": 174,
+    "difficulty": "Iniciante",
+    "elements": [
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "meowth",
+        "min_level": 10,
+        "max_level": 10,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 47.12602317147025,
+    "map_y": 43.29634727667607
+  },
+  {
+    "id": "hunt_spearow",
+    "name": "Caça de Spearow",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 31,
+    "theme_element": "flying",
+    "world": "kanto",
+    "min_level": 12,
+    "max_level": 12,
+    "recommended_level": 5,
+    "progression_rank": 23,
+    "power_score": 177,
+    "difficulty": "Iniciante",
+    "elements": [
+      "flying",
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "spearow",
+        "min_level": 5,
+        "max_level": 5,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 49.04888662823889,
+    "map_y": 16.115425244155993
+  },
+  {
+    "id": "hunt_nidoran-f",
+    "name": "Caça de Nidoran F",
+    "type": "hunt",
+    "map_id": 32,
+    "legacy_map_id": 32,
+    "theme_element": "poison",
+    "world": "kanto",
+    "min_level": 13,
+    "max_level": 13,
+    "recommended_level": 5,
+    "progression_rank": 24,
+    "power_score": 180,
+    "difficulty": "Iniciante",
+    "elements": [
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "nidoran-f",
+        "min_level": 5,
+        "max_level": 5,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 44.68776093630084,
+    "map_y": 78.56320805620166
+  },
+  {
+    "id": "hunt_slugma",
+    "name": "Caça de Slugma",
+    "type": "hunt",
+    "map_id": 36,
+    "legacy_map_id": 36,
+    "theme_element": "fire",
+    "world": "kanto",
+    "min_level": 14,
+    "max_level": 14,
+    "recommended_level": 14,
+    "progression_rank": 26,
+    "power_score": 186,
+    "difficulty": "Iniciante",
+    "elements": [
+      "fire"
+    ],
+    "encounters": [
+      {
+        "species_id": "slugma",
+        "min_level": 14,
+        "max_level": 14,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 18.022334866537474,
+    "map_y": 44.1655928946753
+  },
+  {
+    "id": "hunt_jigglypuff",
+    "name": "Caça de Jigglypuff",
+    "type": "hunt",
+    "map_id": 20,
+    "legacy_map_id": 39,
+    "theme_element": "fairy",
+    "world": "kanto",
+    "min_level": 15,
+    "max_level": 15,
+    "recommended_level": 7,
+    "progression_rank": 27,
+    "power_score": 190,
+    "difficulty": "Iniciante",
+    "elements": [
+      "fairy",
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "jigglypuff",
+        "min_level": 7,
+        "max_level": 7,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 21.85882592701063,
+    "map_y": 13.816845564217388
+  },
+  {
+    "id": "hunt_nidoran-m",
+    "name": "Caça de Nidoran M",
+    "type": "hunt",
+    "map_id": 32,
+    "legacy_map_id": 34,
+    "theme_element": "poison",
+    "world": "kanto",
+    "min_level": 15,
+    "max_level": 15,
+    "recommended_level": 5,
+    "progression_rank": 28,
+    "power_score": 183,
+    "difficulty": "Iniciante",
+    "elements": [
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "nidoran-m",
+        "min_level": 15,
+        "max_level": 5,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 45.24979531163451,
+    "map_y": 46.609903365564506
+  },
+  {
+    "id": "hunt_ekans",
+    "name": "Caça de Ekans",
+    "type": "hunt",
+    "map_id": 32,
+    "legacy_map_id": 38,
+    "theme_element": "poison",
+    "world": "kanto",
+    "min_level": 16,
+    "max_level": 16,
+    "recommended_level": 6,
+    "progression_rank": 29,
+    "power_score": 190,
+    "difficulty": "Iniciante",
+    "elements": [
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "ekans",
+        "min_level": 6,
+        "max_level": 6,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 41.909393574267334,
+    "map_y": 72.75126439974441
+  },
+  {
+    "id": "hunt_vulpix",
+    "name": "Caça de Vulpix",
+    "type": "hunt",
+    "map_id": 36,
+    "legacy_map_id": 37,
+    "theme_element": "fire",
+    "world": "kanto",
+    "min_level": 17,
+    "max_level": 17,
+    "recommended_level": 9,
+    "progression_rank": 30,
+    "power_score": 187,
+    "difficulty": "Iniciante",
+    "elements": [
+      "fire"
+    ],
+    "encounters": [
+      {
+        "species_id": "vulpix",
+        "min_level": 9,
+        "max_level": 9,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 15.481814094487738,
+    "map_y": 74.41226421066865
+  },
+  {
+    "id": "hunt_charmander",
+    "name": "Caça de Charmander",
+    "type": "hunt",
+    "map_id": 36,
+    "legacy_map_id": 42,
+    "theme_element": "fire",
+    "world": "kanto",
+    "min_level": 17,
+    "max_level": 17,
+    "recommended_level": 2,
+    "progression_rank": 31,
+    "power_score": 197,
+    "difficulty": "Iniciante",
+    "elements": [
+      "fire"
+    ],
+    "encounters": [
+      {
+        "species_id": "charmander",
+        "min_level": 2,
+        "max_level": 2,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 13.971568897522438,
+    "map_y": 43.448339059241476
+  },
+  {
+    "id": "hunt_pikachu",
+    "name": "Caça de Pikachu",
+    "type": "hunt",
+    "map_id": 9,
+    "legacy_map_id": 41,
+    "theme_element": "electric",
+    "world": "kanto",
+    "min_level": 18,
+    "max_level": 18,
+    "recommended_level": 8,
+    "progression_rank": 32,
+    "power_score": 194,
+    "difficulty": "Iniciante",
+    "elements": [
+      "electric"
+    ],
+    "encounters": [
+      {
+        "species_id": "pikachu",
+        "min_level": 8,
+        "max_level": 8,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 47.51172460451261,
+    "map_y": 21.92773750989732
+  },
+  {
+    "id": "hunt_mareep",
+    "name": "Caça de Mareep",
+    "type": "hunt",
+    "map_id": 9,
+    "legacy_map_id": 45,
+    "theme_element": "electric",
+    "world": "kanto",
+    "min_level": 19,
+    "max_level": 19,
+    "recommended_level": 10,
+    "progression_rank": 33,
+    "power_score": 198,
+    "difficulty": "Iniciante",
+    "elements": [
+      "electric"
+    ],
+    "encounters": [
+      {
+        "species_id": "mareep",
+        "min_level": 10,
+        "max_level": 10,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 53.11238806172275,
+    "map_y": 16.538802349203422
+  },
+  {
+    "id": "hunt_cyndaquil",
+    "name": "Caça de Cyndaquil",
+    "type": "hunt",
+    "map_id": 36,
+    "legacy_map_id": 43,
+    "theme_element": "fire",
+    "world": "kanto",
+    "min_level": 19,
+    "max_level": 19,
+    "recommended_level": 2,
+    "progression_rank": 34,
+    "power_score": 197,
+    "difficulty": "Iniciante",
+    "elements": [
+      "fire"
+    ],
+    "encounters": [
+      {
+        "species_id": "cyndaquil",
+        "min_level": 2,
+        "max_level": 2,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 23.031223809411664,
+    "map_y": 71.71489714747287
+  },
+  {
+    "id": "hunt_dratini",
+    "name": "Caça de Dratini",
+    "type": "hunt",
+    "map_id": 46,
+    "legacy_map_id": 46,
+    "theme_element": "dragon",
+    "world": "kanto",
+    "min_level": 20,
+    "max_level": 20,
+    "recommended_level": 20,
+    "progression_rank": 35,
+    "power_score": 199,
+    "difficulty": "Iniciante",
+    "elements": [
+      "dragon"
+    ],
+    "encounters": [
+      {
+        "species_id": "dratini",
+        "min_level": 20,
+        "max_level": 20,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 72.9905183005121,
+    "map_y": 41.80059174693117
+  },
+  {
+    "id": "hunt_paras",
+    "name": "Caça de Paras",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 49,
+    "theme_element": "bug",
+    "world": "kanto",
+    "min_level": 21,
+    "max_level": 21,
+    "recommended_level": 9,
+    "progression_rank": 36,
+    "power_score": 201,
+    "difficulty": "Iniciante",
+    "elements": [
+      "bug",
+      "grass"
+    ],
+    "encounters": [
+      {
+        "species_id": "paras",
+        "min_level": 9,
+        "max_level": 9,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 40.78842931757653,
+    "map_y": 77.4233851624901
+  },
+  {
+    "id": "hunt_chikorita",
+    "name": "Caça de Chikorita",
+    "type": "hunt",
+    "map_id": 7,
+    "legacy_map_id": 47,
+    "theme_element": "grass",
+    "world": "kanto",
+    "min_level": 21,
+    "max_level": 21,
+    "recommended_level": 1,
+    "progression_rank": 37,
+    "power_score": 199,
+    "difficulty": "Iniciante",
+    "elements": [
+      "grass"
+    ],
+    "encounters": [
+      {
+        "species_id": "chikorita",
+        "min_level": 1,
+        "max_level": 1,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 39.08764303240691,
+    "map_y": 42.5868082348416
+  },
+  {
+    "id": "hunt_venonat",
+    "name": "Caça de Venonat",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 50,
+    "theme_element": "bug",
+    "world": "kanto",
+    "min_level": 22,
+    "max_level": 22,
+    "recommended_level": 11,
+    "progression_rank": 38,
+    "power_score": 203,
+    "difficulty": "Iniciante",
+    "elements": [
+      "bug",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "venonat",
+        "min_level": 11,
+        "max_level": 11,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 77.52283256282078,
+    "map_y": 18.456255614830518
+  },
+  {
+    "id": "hunt_voltorb",
+    "name": "Caça de Voltorb",
+    "type": "hunt",
+    "map_id": 9,
+    "legacy_map_id": 52,
+    "theme_element": "electric",
+    "world": "kanto",
+    "min_level": 23,
+    "max_level": 23,
+    "recommended_level": 14,
+    "progression_rank": 39,
+    "power_score": 204,
+    "difficulty": "Iniciante",
+    "elements": [
+      "electric"
+    ],
+    "encounters": [
+      {
+        "species_id": "voltorb",
+        "min_level": 14,
+        "max_level": 14,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 53.84445897304435,
+    "map_y": 21.416279306055962
+  },
+  {
+    "id": "hunt_bellsprout",
+    "name": "Caça de Bellsprout",
+    "type": "hunt",
+    "map_id": 7,
+    "legacy_map_id": 56,
+    "theme_element": "grass",
+    "world": "kanto",
+    "min_level": 24,
+    "max_level": 24,
+    "recommended_level": 10,
+    "progression_rank": 40,
+    "power_score": 206,
+    "difficulty": "Iniciante",
+    "elements": [
+      "grass",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "bellsprout",
+        "min_level": 10,
+        "max_level": 10,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 46.47317806516361,
+    "map_y": 39.26776785721574
+  },
+  {
+    "id": "hunt_skiploom",
+    "name": "Caça de Skiploom",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 53,
+    "theme_element": "flying",
+    "world": "kanto",
+    "min_level": 24,
+    "max_level": 24,
+    "recommended_level": 20,
+    "progression_rank": 41,
+    "power_score": 204,
+    "difficulty": "Iniciante",
+    "elements": [
+      "flying",
+      "grass"
+    ],
+    "encounters": [
+      {
+        "species_id": "skiploom",
+        "min_level": 20,
+        "max_level": 20,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 69.63244048995534,
+    "map_y": 43.88395165772988
+  },
+  {
+    "id": "hunt_larvitar",
+    "name": "Caça de Larvitar",
+    "type": "hunt",
+    "map_id": 23,
+    "legacy_map_id": 54,
+    "theme_element": "ground",
+    "world": "kanto",
+    "min_level": 25,
+    "max_level": 25,
+    "recommended_level": 35,
+    "progression_rank": 42,
+    "power_score": 204,
+    "difficulty": "Iniciante",
+    "elements": [
+      "ground",
+      "rock"
+    ],
+    "encounters": [
+      {
+        "species_id": "larvitar",
+        "min_level": 35,
+        "max_level": 35,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 21.254129588850947,
+    "map_y": 42.15789614199045
+  },
+  {
+    "id": "hunt_pineco",
+    "name": "Caça de Pineco",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 59,
+    "theme_element": "bug",
+    "world": "kanto",
+    "min_level": 26,
+    "max_level": 26,
+    "recommended_level": 35,
+    "progression_rank": 43,
+    "power_score": 208,
+    "difficulty": "Iniciante",
+    "elements": [
+      "bug"
+    ],
+    "encounters": [
+      {
+        "species_id": "pineco",
+        "min_level": 35,
+        "max_level": 35,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 42.43055073552104,
+    "map_y": 69.25810241449935
+  },
+  {
+    "id": "hunt_cubone",
+    "name": "Caça de Cubone",
+    "type": "hunt",
+    "map_id": 23,
+    "legacy_map_id": 58,
+    "theme_element": "ground",
+    "world": "kanto",
+    "min_level": 26,
+    "max_level": 26,
+    "recommended_level": 18,
+    "progression_rank": 44,
+    "power_score": 207,
+    "difficulty": "Iniciante",
+    "elements": [
+      "ground"
+    ],
+    "encounters": [
+      {
+        "species_id": "cubone",
+        "min_level": 18,
+        "max_level": 18,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 19.682131968220524,
+    "map_y": 68.52073836098054
+  },
+  {
+    "id": "hunt_drowzee",
+    "name": "Caça de Drowzee",
+    "type": "hunt",
+    "map_id": 60,
+    "legacy_map_id": 60,
+    "theme_element": "psychic",
+    "world": "kanto",
+    "min_level": 27,
+    "max_level": 27,
+    "recommended_level": 16,
+    "progression_rank": 45,
+    "power_score": 210,
+    "difficulty": "Iniciante",
+    "elements": [
+      "psychic"
+    ],
+    "encounters": [
+      {
+        "species_id": "drowzee",
+        "min_level": 16,
+        "max_level": 16,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 71.88502194428631,
+    "map_y": 69.54837115640015
+  },
+  {
+    "id": "hunt_natu",
+    "name": "Caça de Natu",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 62,
+    "theme_element": "flying",
+    "world": "kanto",
+    "min_level": 28,
+    "max_level": 28,
+    "recommended_level": 12,
+    "progression_rank": 46,
+    "power_score": 211,
+    "difficulty": "Iniciante",
+    "elements": [
+      "flying",
+      "psychic"
+    ],
+    "encounters": [
+      {
+        "species_id": "natu",
+        "min_level": 12,
+        "max_level": 12,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 86.327219262159,
+    "map_y": 57.548382663729285
+  },
+  {
+    "id": "hunt_mankey",
+    "name": "Caça de Mankey",
+    "type": "hunt",
+    "map_id": 13,
+    "legacy_map_id": 66,
+    "theme_element": "fighting",
+    "world": "kanto",
+    "min_level": 29,
+    "max_level": 29,
+    "recommended_level": 9,
+    "progression_rank": 47,
+    "power_score": 215,
+    "difficulty": "Iniciante",
+    "elements": [
+      "fighting"
+    ],
+    "encounters": [
+      {
+        "species_id": "mankey",
+        "min_level": 9,
+        "max_level": 9,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 14.973690960305333,
+    "map_y": 70.92230294918329
+  },
+  {
+    "id": "hunt_delibird",
+    "name": "Caça de Delibird",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 63,
+    "theme_element": "flying",
+    "world": "kanto",
+    "min_level": 29,
+    "max_level": 29,
+    "recommended_level": 29,
+    "progression_rank": 48,
+    "power_score": 211,
+    "difficulty": "Iniciante",
+    "elements": [
+      "flying",
+      "ice"
+    ],
+    "encounters": [
+      {
+        "species_id": "delibird",
+        "min_level": 29,
+        "max_level": 29,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 27.2836650984721,
+    "map_y": 14.709707960501413
+  },
+  {
+    "id": "hunt_bulbasaur",
+    "name": "Caça de Bulbasaur",
+    "type": "hunt",
+    "map_id": 7,
+    "legacy_map_id": 64,
+    "theme_element": "grass",
+    "world": "kanto",
+    "min_level": 30,
+    "max_level": 30,
+    "recommended_level": 1,
+    "progression_rank": 49,
+    "power_score": 212,
+    "difficulty": "Iniciante",
+    "elements": [
+      "grass",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "bulbasaur",
+        "min_level": 1,
+        "max_level": 1,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 81.84387659358828,
+    "map_y": 20.2270373501327
+  },
+  {
+    "id": "hunt_clefairy",
+    "name": "Caça de Clefairy",
+    "type": "hunt",
+    "map_id": 20,
+    "legacy_map_id": 70,
+    "theme_element": "fairy",
+    "world": "kanto",
+    "min_level": 31,
+    "max_level": 31,
+    "recommended_level": 10,
+    "progression_rank": 50,
+    "power_score": 219,
+    "difficulty": "Iniciante",
+    "elements": [
+      "fairy"
+    ],
+    "encounters": [
+      {
+        "species_id": "clefairy",
+        "min_level": 10,
+        "max_level": 10,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 68.61434689141461,
+    "map_y": 73.47582120479694
+  },
+  {
+    "id": "hunt_sandshrew",
+    "name": "Caça de Sandshrew",
+    "type": "hunt",
+    "map_id": 23,
+    "legacy_map_id": 73,
+    "theme_element": "ground",
+    "world": "kanto",
+    "min_level": 32,
+    "max_level": 32,
+    "recommended_level": 7,
+    "progression_rank": 51,
+    "power_score": 221,
+    "difficulty": "Iniciante",
+    "elements": [
+      "ground"
+    ],
+    "encounters": [
+      {
+        "species_id": "sandshrew",
+        "min_level": 7,
+        "max_level": 7,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 19.62889303649052,
+    "map_y": 38.714392190118836
+  },
+  {
+    "id": "hunt_exeggcute",
+    "name": "Caça de Exeggcute",
+    "type": "hunt",
+    "map_id": 7,
+    "legacy_map_id": 71,
+    "theme_element": "grass",
+    "world": "kanto",
+    "min_level": 32,
+    "max_level": 32,
+    "recommended_level": 16,
+    "progression_rank": 52,
+    "power_score": 219,
+    "difficulty": "Iniciante",
+    "elements": [
+      "grass",
+      "psychic"
+    ],
+    "encounters": [
+      {
+        "species_id": "exeggcute",
+        "min_level": 16,
+        "max_level": 16,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 72.6853537912687,
+    "map_y": 25.28940598543367
+  },
+  {
+    "id": "hunt_doduo",
+    "name": "Caça de Doduo",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 72,
+    "theme_element": "flying",
+    "world": "kanto",
+    "min_level": 33,
+    "max_level": 33,
+    "recommended_level": 14,
+    "progression_rank": 53,
+    "power_score": 220,
+    "difficulty": "Iniciante",
+    "elements": [
+      "flying",
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "doduo",
+        "min_level": 14,
+        "max_level": 14,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 23.31554179387583,
+    "map_y": 19.831754184693697
+  },
+  {
+    "id": "hunt_unown",
+    "name": "Caça de Unown",
+    "type": "hunt",
+    "map_id": 60,
+    "legacy_map_id": 74,
+    "theme_element": "psychic",
+    "world": "kanto",
+    "min_level": 34,
+    "max_level": 34,
+    "recommended_level": 30,
+    "progression_rank": 54,
+    "power_score": 221,
+    "difficulty": "Iniciante",
+    "elements": [
+      "psychic"
+    ],
+    "encounters": [
+      {
+        "species_id": "unown",
+        "min_level": 30,
+        "max_level": 30,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 64.13459331887863,
+    "map_y": 67.64828860809052
+  },
+  {
+    "id": "hunt_koffing",
+    "name": "Caça de Koffing",
+    "type": "hunt",
+    "map_id": 32,
+    "legacy_map_id": 76,
+    "theme_element": "poison",
+    "world": "kanto",
+    "min_level": 35,
+    "max_level": 35,
+    "recommended_level": 18,
+    "progression_rank": 55,
+    "power_score": 222,
+    "difficulty": "Intermediária",
+    "elements": [
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "koffing",
+        "min_level": 18,
+        "max_level": 18,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 49.78146367071314,
+    "map_y": 71.27224883361623
+  },
+  {
+    "id": "hunt_elekid",
+    "name": "Caça de Elekid",
+    "type": "hunt",
+    "map_id": 9,
+    "legacy_map_id": 75,
+    "theme_element": "electric",
+    "world": "kanto",
+    "min_level": 35,
+    "max_level": 35,
+    "recommended_level": 25,
+    "progression_rank": 56,
+    "power_score": 221,
+    "difficulty": "Intermediária",
+    "elements": [
+      "electric"
+    ],
+    "encounters": [
+      {
+        "species_id": "elekid",
+        "min_level": 25,
+        "max_level": 25,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 43.791908944714976,
+    "map_y": 20.780802708583256
+  },
+  {
+    "id": "hunt_snubbull",
+    "name": "Caça de Snubbull",
+    "type": "hunt",
+    "map_id": 20,
+    "legacy_map_id": 78,
+    "theme_element": "fairy",
+    "world": "kanto",
+    "min_level": 36,
+    "max_level": 36,
+    "recommended_level": 38,
+    "progression_rank": 57,
+    "power_score": 223,
+    "difficulty": "Intermediária",
+    "elements": [
+      "fairy"
+    ],
+    "encounters": [
+      {
+        "species_id": "snubbull",
+        "min_level": 38,
+        "max_level": 38,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 28.338649757606298,
+    "map_y": 18.40867220195388
+  },
+  {
+    "id": "hunt_smoochum",
+    "name": "Caça de Smoochum",
+    "type": "hunt",
+    "map_id": 79,
+    "legacy_map_id": 79,
+    "theme_element": "ice",
+    "world": "kanto",
+    "min_level": 37,
+    "max_level": 37,
+    "recommended_level": 25,
+    "progression_rank": 58,
+    "power_score": 223,
+    "difficulty": "Intermediária",
+    "elements": [
+      "ice",
+      "psychic"
+    ],
+    "encounters": [
+      {
+        "species_id": "smoochum",
+        "min_level": 25,
+        "max_level": 25,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 25.269057204123477,
+    "map_y": 12.127214160168734
+  },
+  {
+    "id": "hunt_geodude",
+    "name": "Caça de Geodude",
+    "type": "hunt",
+    "map_id": 23,
+    "legacy_map_id": 81,
+    "theme_element": "ground",
+    "world": "kanto",
+    "min_level": 38,
+    "max_level": 38,
+    "recommended_level": 8,
+    "progression_rank": 59,
+    "power_score": 224,
+    "difficulty": "Intermediária",
+    "elements": [
+      "ground",
+      "rock"
+    ],
+    "encounters": [
+      {
+        "species_id": "geodude",
+        "min_level": 8,
+        "max_level": 8,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 13.494098496001838,
+    "map_y": 39.267147341011245
+  },
+  {
+    "id": "hunt_pidgeotto",
+    "name": "Caça de Pidgeotto",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 77,
+    "theme_element": "flying",
+    "world": "kanto",
+    "min_level": 38,
+    "max_level": 38,
+    "recommended_level": 18,
+    "progression_rank": 60,
+    "power_score": 223,
+    "difficulty": "Intermediária",
+    "elements": [
+      "flying",
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "pidgeotto",
+        "min_level": 18,
+        "max_level": 18,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 66.44776262124255,
+    "map_y": 37.54818846789811
+  },
+  {
+    "id": "hunt_oddish",
+    "name": "Caça de Oddish",
+    "type": "hunt",
+    "map_id": 7,
+    "legacy_map_id": 80,
+    "theme_element": "grass",
+    "world": "kanto",
+    "min_level": 39,
+    "max_level": 39,
+    "recommended_level": 8,
+    "progression_rank": 61,
+    "power_score": 224,
+    "difficulty": "Intermediária",
+    "elements": [
+      "grass",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "oddish",
+        "min_level": 8,
+        "max_level": 8,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 40.29092327720766,
+    "map_y": 46.893138968258114
+  },
+  {
+    "id": "hunt_machop",
+    "name": "Caça de Machop",
+    "type": "hunt",
+    "map_id": 13,
+    "legacy_map_id": 84,
+    "theme_element": "fighting",
+    "world": "kanto",
+    "min_level": 40,
+    "max_level": 40,
+    "recommended_level": 8,
+    "progression_rank": 62,
+    "power_score": 228,
+    "difficulty": "Intermediária",
+    "elements": [
+      "fighting"
+    ],
+    "encounters": [
+      {
+        "species_id": "machop",
+        "min_level": 8,
+        "max_level": 8,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 42.636995022459615,
+    "map_y": 37.23906215821003
+  },
+  {
+    "id": "hunt_houndour",
+    "name": "Caça de Houndour",
+    "type": "hunt",
+    "map_id": 82,
+    "legacy_map_id": 82,
+    "theme_element": "dark",
+    "world": "kanto",
+    "min_level": 41,
+    "max_level": 41,
+    "recommended_level": 35,
+    "progression_rank": 63,
+    "power_score": 224,
+    "difficulty": "Intermediária",
+    "elements": [
+      "dark",
+      "fire"
+    ],
+    "encounters": [
+      {
+        "species_id": "houndour",
+        "min_level": 35,
+        "max_level": 35,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 66.50456691070708,
+    "map_y": 64.98487647875852
+  },
+  {
+    "id": "hunt_gastly",
+    "name": "Caça de Gastly",
+    "type": "hunt",
+    "map_id": 87,
+    "legacy_map_id": 87,
+    "theme_element": "ghost",
+    "world": "kanto",
+    "min_level": 42,
+    "max_level": 42,
+    "recommended_level": 20,
+    "progression_rank": 64,
+    "power_score": 230,
+    "difficulty": "Intermediária",
+    "elements": [
+      "ghost",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "gastly",
+        "min_level": 20,
+        "max_level": 20,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 63.872268736983855,
+    "map_y": 71.69243658893312
+  },
+  {
+    "id": "hunt_growlithe",
+    "name": "Caça de Growlithe",
+    "type": "hunt",
+    "map_id": 36,
+    "legacy_map_id": 83,
+    "theme_element": "fire",
+    "world": "kanto",
+    "min_level": 42,
+    "max_level": 42,
+    "recommended_level": 12,
+    "progression_rank": 65,
+    "power_score": 226,
+    "difficulty": "Intermediária",
+    "elements": [
+      "fire"
+    ],
+    "encounters": [
+      {
+        "species_id": "growlithe",
+        "min_level": 12,
+        "max_level": 12,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 15.540429375814735,
+    "map_y": 46.73128056072716
+  },
+  {
+    "id": "hunt_phanpy",
+    "name": "Caça de Phanpy",
+    "type": "hunt",
+    "map_id": 23,
+    "legacy_map_id": 86,
+    "theme_element": "ground",
+    "world": "kanto",
+    "min_level": 43,
+    "max_level": 43,
+    "recommended_level": 30,
+    "progression_rank": 66,
+    "power_score": 228,
+    "difficulty": "Intermediária",
+    "elements": [
+      "ground"
+    ],
+    "encounters": [
+      {
+        "species_id": "phanpy",
+        "min_level": 30,
+        "max_level": 30,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 21.68398844439579,
+    "map_y": 45.60025896305448
+  },
+  {
+    "id": "hunt_magby",
+    "name": "Caça de Magby",
+    "type": "hunt",
+    "map_id": 36,
+    "legacy_map_id": 89,
+    "theme_element": "fire",
+    "world": "kanto",
+    "min_level": 44,
+    "max_level": 44,
+    "recommended_level": 25,
+    "progression_rank": 67,
+    "power_score": 232,
+    "difficulty": "Intermediária",
+    "elements": [
+      "fire"
+    ],
+    "encounters": [
+      {
+        "species_id": "magby",
+        "min_level": 25,
+        "max_level": 25,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 17.229979026656927,
+    "map_y": 78.32845402886167
+  },
+  {
+    "id": "hunt_abra",
+    "name": "Caça de Abra",
+    "type": "hunt",
+    "map_id": 60,
+    "legacy_map_id": 91,
+    "theme_element": "psychic",
+    "world": "kanto",
+    "min_level": 45,
+    "max_level": 45,
+    "recommended_level": 10,
+    "progression_rank": 68,
+    "power_score": 236,
+    "difficulty": "Intermediária",
+    "elements": [
+      "psychic"
+    ],
+    "encounters": [
+      {
+        "species_id": "abra",
+        "min_level": 10,
+        "max_level": 10,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 73.72037703834357,
+    "map_y": 72.6153327411109
+  },
+  {
+    "id": "hunt_onix",
+    "name": "Caça de Onix",
+    "type": "hunt",
+    "map_id": 23,
+    "legacy_map_id": 88,
+    "theme_element": "ground",
+    "world": "kanto",
+    "min_level": 45,
+    "max_level": 45,
+    "recommended_level": 22,
+    "progression_rank": 69,
+    "power_score": 232,
+    "difficulty": "Intermediária",
+    "elements": [
+      "ground",
+      "rock"
+    ],
+    "encounters": [
+      {
+        "species_id": "onix",
+        "min_level": 22,
+        "max_level": 22,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 24.221119958141887,
+    "map_y": 40.098203693736224
+  },
+  {
+    "id": "hunt_teddiursa",
+    "name": "Caça de Teddiursa",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 90,
+    "theme_element": "normal",
+    "world": "kanto",
+    "min_level": 46,
+    "max_level": 46,
+    "recommended_level": 25,
+    "progression_rank": 70,
+    "power_score": 234,
+    "difficulty": "Intermediária",
+    "elements": [
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "teddiursa",
+        "min_level": 25,
+        "max_level": 25,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 89.69293672585987,
+    "map_y": 66.06803283777305
+  },
+  {
+    "id": "hunt_aipom",
+    "name": "Caça de Aipom",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 92,
+    "theme_element": "normal",
+    "world": "kanto",
+    "min_level": 47,
+    "max_level": 47,
+    "recommended_level": 22,
+    "progression_rank": 71,
+    "power_score": 236,
+    "difficulty": "Intermediária",
+    "elements": [
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "aipom",
+        "min_level": 22,
+        "max_level": 22,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 87.5286266212795,
+    "map_y": 72.32666390985355
+  },
+  {
+    "id": "hunt_grimer",
+    "name": "Caça de Grimer",
+    "type": "hunt",
+    "map_id": 32,
+    "legacy_map_id": 97,
+    "theme_element": "poison",
+    "world": "kanto",
+    "min_level": 48,
+    "max_level": 48,
+    "recommended_level": 18,
+    "progression_rank": 72,
+    "power_score": 242,
+    "difficulty": "Intermediária",
+    "elements": [
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "grimer",
+        "min_level": 18,
+        "max_level": 18,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 46.930587649480216,
+    "map_y": 68.88771036757541
+  },
+  {
+    "id": "hunt_magnemite",
+    "name": "Caça de Magnemite",
+    "type": "hunt",
+    "map_id": 9,
+    "legacy_map_id": 95,
+    "theme_element": "electric",
+    "world": "kanto",
+    "min_level": 49,
+    "max_level": 49,
+    "recommended_level": 12,
+    "progression_rank": 73,
+    "power_score": 240,
+    "difficulty": "Intermediária",
+    "elements": [
+      "electric",
+      "steel"
+    ],
+    "encounters": [
+      {
+        "species_id": "magnemite",
+        "min_level": 12,
+        "max_level": 12,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 44.806738433118056,
+    "map_y": 15.009015659431089
+  },
+  {
+    "id": "hunt_nidorina",
+    "name": "Caça de Nidorina",
+    "type": "hunt",
+    "map_id": 32,
+    "legacy_map_id": 93,
+    "theme_element": "poison",
+    "world": "kanto",
+    "min_level": 49,
+    "max_level": 49,
+    "recommended_level": 12,
+    "progression_rank": 74,
+    "power_score": 237,
+    "difficulty": "Intermediária",
+    "elements": [
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "nidorina",
+        "min_level": 12,
+        "max_level": 12,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 49.91245639928222,
+    "map_y": 78.08543194447125
+  },
+  {
+    "id": "hunt_nidorino",
+    "name": "Caça de Nidorino",
+    "type": "hunt",
+    "map_id": 32,
+    "legacy_map_id": 96,
+    "theme_element": "poison",
+    "world": "kanto",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 12,
+    "progression_rank": 75,
+    "power_score": 241,
+    "difficulty": "Intermediária",
+    "elements": [
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "nidorino",
+        "min_level": 12,
+        "max_level": 12,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 38.77438664898609,
+    "map_y": 39.03619299403239
+  },
+  {
+    "id": "hunt_yanma",
+    "name": "Caça de Yanma",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 100,
+    "theme_element": "bug",
+    "world": "kanto",
+    "min_level": 51,
+    "max_level": 51,
+    "recommended_level": 58,
+    "progression_rank": 76,
+    "power_score": 249,
+    "difficulty": "Intermediária",
+    "elements": [
+      "bug",
+      "flying"
+    ],
+    "encounters": [
+      {
+        "species_id": "yanma",
+        "min_level": 58,
+        "max_level": 58,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 73.43895481854327,
+    "map_y": 18.91927454933647
+  },
+  {
+    "id": "hunt_ledian",
+    "name": "Caça de Ledian",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 98,
+    "theme_element": "bug",
+    "world": "kanto",
+    "min_level": 52,
+    "max_level": 52,
+    "recommended_level": 40,
+    "progression_rank": 77,
+    "power_score": 242,
+    "difficulty": "Intermediária",
+    "elements": [
+      "bug",
+      "flying"
+    ],
+    "encounters": [
+      {
+        "species_id": "ledian",
+        "min_level": 40,
+        "max_level": 40,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 80.67902394724877,
+    "map_y": 27.457501777354857
+  },
+  {
+    "id": "hunt_flaaffy",
+    "name": "Caça de Flaaffy",
+    "type": "hunt",
+    "map_id": 9,
+    "legacy_map_id": 102,
+    "theme_element": "electric",
+    "world": "kanto",
+    "min_level": 53,
+    "max_level": 53,
+    "recommended_level": 15,
+    "progression_rank": 78,
+    "power_score": 253,
+    "difficulty": "Intermediária",
+    "elements": [
+      "electric"
+    ],
+    "encounters": [
+      {
+        "species_id": "flaaffy",
+        "min_level": 15,
+        "max_level": 15,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 49.785844099377066,
+    "map_y": 24.402877244775794
+  },
+  {
+    "id": "hunt_lickitung",
+    "name": "Caça de Lickitung",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 103,
+    "theme_element": "normal",
+    "world": "kanto",
+    "min_level": 53,
+    "max_level": 53,
+    "recommended_level": 50,
+    "progression_rank": 79,
+    "power_score": 255,
+    "difficulty": "Intermediária",
+    "elements": [
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "lickitung",
+        "min_level": 50,
+        "max_level": 50,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 89.82629185269082,
+    "map_y": 62.85446857935224
+  },
+  {
+    "id": "hunt_bayleef",
+    "name": "Caça de Bayleef",
+    "type": "hunt",
+    "map_id": 7,
+    "legacy_map_id": 105,
+    "theme_element": "grass",
+    "world": "kanto",
+    "min_level": 54,
+    "max_level": 54,
+    "recommended_level": 16,
+    "progression_rank": 80,
+    "power_score": 255,
+    "difficulty": "Intermediária",
+    "elements": [
+      "grass"
+    ],
+    "encounters": [
+      {
+        "species_id": "bayleef",
+        "min_level": 16,
+        "max_level": 16,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 43.23014379018393,
+    "map_y": 49.21080073023893
+  },
+  {
+    "id": "hunt_murkrow",
+    "name": "Caça de Murkrow",
+    "type": "hunt",
+    "map_id": 82,
+    "legacy_map_id": 107,
+    "theme_element": "dark",
+    "world": "kanto",
+    "min_level": 55,
+    "max_level": 55,
+    "recommended_level": 40,
+    "progression_rank": 81,
+    "power_score": 259,
+    "difficulty": "Intermediária",
+    "elements": [
+      "dark",
+      "flying"
+    ],
+    "encounters": [
+      {
+        "species_id": "murkrow",
+        "min_level": 40,
+        "max_level": 40,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 72.15500297384934,
+    "map_y": 64.73765646249078
+  },
+  {
+    "id": "hunt_rhyhorn",
+    "name": "Caça de Rhyhorn",
+    "type": "hunt",
+    "map_id": 23,
+    "legacy_map_id": 109,
+    "theme_element": "ground",
+    "world": "kanto",
+    "min_level": 56,
+    "max_level": 56,
+    "recommended_level": 22,
+    "progression_rank": 82,
+    "power_score": 260,
+    "difficulty": "Intermediária",
+    "elements": [
+      "ground",
+      "rock"
+    ],
+    "encounters": [
+      {
+        "species_id": "rhyhorn",
+        "min_level": 22,
+        "max_level": 22,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 23.282928840425893,
+    "map_y": 77.51816617108047
+  },
+  {
+    "id": "hunt_farfetchd",
+    "name": "Caça de Farfetchd",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 108,
+    "theme_element": "flying",
+    "world": "kanto",
+    "min_level": 57,
+    "max_level": 57,
+    "recommended_level": 57,
+    "progression_rank": 83,
+    "power_score": 260,
+    "difficulty": "Intermediária",
+    "elements": [
+      "flying",
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "farfetchd",
+        "min_level": 57,
+        "max_level": 57,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 64.35710975152823,
+    "map_y": 40.85153069384666
+  },
+  {
+    "id": "hunt_weepinbell",
+    "name": "Caça de Weepinbell",
+    "type": "hunt",
+    "map_id": 7,
+    "legacy_map_id": 111,
+    "theme_element": "grass",
+    "world": "kanto",
+    "min_level": 58,
+    "max_level": 58,
+    "recommended_level": 21,
+    "progression_rank": 84,
+    "power_score": 263,
+    "difficulty": "Intermediária",
+    "elements": [
+      "grass",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "weepinbell",
+        "min_level": 21,
+        "max_level": 21,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 76.64862920884246,
+    "map_y": 28.068869625102952
+  },
+  {
+    "id": "hunt_charmeleon",
+    "name": "Caça de Charmeleon",
+    "type": "hunt",
+    "map_id": 36,
+    "legacy_map_id": 110,
+    "theme_element": "fire",
+    "world": "kanto",
+    "min_level": 58,
+    "max_level": 58,
+    "recommended_level": 16,
+    "progression_rank": 85,
+    "power_score": 263,
+    "difficulty": "Intermediária",
+    "elements": [
+      "fire"
+    ],
+    "encounters": [
+      {
+        "species_id": "charmeleon",
+        "min_level": 16,
+        "max_level": 16,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 16.39815805385801,
+    "map_y": 36.960083806054605
+  },
+  {
+    "id": "hunt_quilava",
+    "name": "Caça de Quilava",
+    "type": "hunt",
+    "map_id": 36,
+    "legacy_map_id": 112,
+    "theme_element": "fire",
+    "world": "kanto",
+    "min_level": 59,
+    "max_level": 59,
+    "recommended_level": 14,
+    "progression_rank": 86,
+    "power_score": 263,
+    "difficulty": "Intermediária",
+    "elements": [
+      "fire"
+    ],
+    "encounters": [
+      {
+        "species_id": "quilava",
+        "min_level": 14,
+        "max_level": 14,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 25.650434379214914,
+    "map_y": 75.00982218710232
+  },
+  {
+    "id": "hunt_ivysaur",
+    "name": "Caça de Ivysaur",
+    "type": "hunt",
+    "map_id": 7,
+    "legacy_map_id": 115,
+    "theme_element": "grass",
+    "world": "kanto",
+    "min_level": 60,
+    "max_level": 60,
+    "recommended_level": 16,
+    "progression_rank": 87,
+    "power_score": 268,
+    "difficulty": "Intermediária",
+    "elements": [
+      "grass",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "ivysaur",
+        "min_level": 16,
+        "max_level": 16,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 46.974098798998085,
+    "map_y": 81.16400860141958
+  },
+  {
+    "id": "hunt_ponyta",
+    "name": "Caça de Ponyta",
+    "type": "hunt",
+    "map_id": 36,
+    "legacy_map_id": 113,
+    "theme_element": "fire",
+    "world": "kanto",
+    "min_level": 61,
+    "max_level": 61,
+    "recommended_level": 14,
+    "progression_rank": 88,
+    "power_score": 266,
+    "difficulty": "Intermediária",
+    "elements": [
+      "fire"
+    ],
+    "encounters": [
+      {
+        "species_id": "ponyta",
+        "min_level": 14,
+        "max_level": 14,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 24.634284153659483,
+    "map_y": 68.58812151442854
+  },
+  {
+    "id": "hunt_raticate",
+    "name": "Caça de Raticate",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 117,
+    "theme_element": "normal",
+    "world": "kanto",
+    "min_level": 62,
+    "max_level": 62,
+    "recommended_level": 25,
+    "progression_rank": 89,
+    "power_score": 269,
+    "difficulty": "Intermediária",
+    "elements": [
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "raticate",
+        "min_level": 25,
+        "max_level": 25,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 69.20299693031939,
+    "map_y": 35.15578407682625
+  },
+  {
+    "id": "hunt_persian",
+    "name": "Caça de Persian",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 116,
+    "theme_element": "normal",
+    "world": "kanto",
+    "min_level": 62,
+    "max_level": 62,
+    "recommended_level": 45,
+    "progression_rank": 90,
+    "power_score": 268,
+    "difficulty": "Intermediária",
+    "elements": [
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "persian",
+        "min_level": 45,
+        "max_level": 45,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 90.18960978181667,
+    "map_y": 58.528658311361056
+  },
+  {
+    "id": "hunt_gloom",
+    "name": "Caça de Gloom",
+    "type": "hunt",
+    "map_id": 7,
+    "legacy_map_id": 118,
+    "theme_element": "grass",
+    "world": "kanto",
+    "min_level": 63,
+    "max_level": 63,
+    "recommended_level": 21,
+    "progression_rank": 91,
+    "power_score": 270,
+    "difficulty": "Intermediária",
+    "elements": [
+      "grass",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "gloom",
+        "min_level": 21,
+        "max_level": 21,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 80.8775418184493,
+    "map_y": 16.70634139118811
+  },
+  {
+    "id": "hunt_wobbuffet",
+    "name": "Caça de Wobbuffet",
+    "type": "hunt",
+    "map_id": 60,
+    "legacy_map_id": 120,
+    "theme_element": "psychic",
+    "world": "kanto",
+    "min_level": 64,
+    "max_level": 64,
+    "recommended_level": 62,
+    "progression_rank": 92,
+    "power_score": 271,
+    "difficulty": "Intermediária",
+    "elements": [
+      "psychic"
+    ],
+    "encounters": [
+      {
+        "species_id": "wobbuffet",
+        "min_level": 62,
+        "max_level": 62,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 68.9664,
+    "map_y": 64.4541
+  },
+  {
+    "id": "hunt_porygon",
+    "name": "Caça de Porygon",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 121,
+    "theme_element": "normal",
+    "world": "kanto",
+    "min_level": 65,
+    "max_level": 65,
+    "recommended_level": 55,
+    "progression_rank": 93,
+    "power_score": 272,
+    "difficulty": "Intermediária",
+    "elements": [
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "porygon",
+        "min_level": 55,
+        "max_level": 55,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 83.1422214257796,
+    "map_y": 66.4776809953606
+  },
+  {
+    "id": "hunt_butterfree",
+    "name": "Caça de Butterfree",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 122,
+    "theme_element": "bug",
+    "world": "kanto",
+    "min_level": 66,
+    "max_level": 66,
+    "recommended_level": 20,
+    "progression_rank": 94,
+    "power_score": 274,
+    "difficulty": "Intermediária",
+    "elements": [
+      "bug",
+      "flying"
+    ],
+    "encounters": [
+      {
+        "species_id": "butterfree",
+        "min_level": 20,
+        "max_level": 20,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 49.949044520433674,
+    "map_y": 45.57018389281748
+  },
+  {
+    "id": "hunt_beedrill",
+    "name": "Caça de Beedrill",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 123,
+    "theme_element": "bug",
+    "world": "kanto",
+    "min_level": 67,
+    "max_level": 67,
+    "recommended_level": 20,
+    "progression_rank": 95,
+    "power_score": 274,
+    "difficulty": "Intermediária",
+    "elements": [
+      "bug",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "beedrill",
+        "min_level": 20,
+        "max_level": 20,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 38.6057988840122,
+    "map_y": 74.855736603005
+  },
+  {
+    "id": "hunt_furret",
+    "name": "Caça de Furret",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 127,
+    "theme_element": "normal",
+    "world": "kanto",
+    "min_level": 67,
+    "max_level": 67,
+    "recommended_level": 22,
+    "progression_rank": 96,
+    "power_score": 275,
+    "difficulty": "Intermediária",
+    "elements": [
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "furret",
+        "min_level": 22,
+        "max_level": 22,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 75.94822246558562,
+    "map_y": 39.64992134566236
+  },
+  {
+    "id": "hunt_dragonair",
+    "name": "Caça de Dragonair",
+    "type": "hunt",
+    "map_id": 46,
+    "legacy_map_id": 126,
+    "theme_element": "dragon",
+    "world": "kanto",
+    "min_level": 68,
+    "max_level": 68,
+    "recommended_level": 68,
+    "progression_rank": 97,
+    "power_score": 275,
+    "difficulty": "Intermediária",
+    "elements": [
+      "dragon"
+    ],
+    "encounters": [
+      {
+        "species_id": "dragonair",
+        "min_level": 68,
+        "max_level": 68,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 65.07453565775967,
+    "map_y": 44.15026996815542
+  },
+  {
+    "id": "hunt_jumpluff",
+    "name": "Caça de Jumpluff",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 125,
+    "theme_element": "flying",
+    "world": "kanto",
+    "min_level": 69,
+    "max_level": 69,
+    "recommended_level": 50,
+    "progression_rank": 98,
+    "power_score": 274,
+    "difficulty": "Intermediária",
+    "elements": [
+      "flying",
+      "grass"
+    ],
+    "encounters": [
+      {
+        "species_id": "jumpluff",
+        "min_level": 50,
+        "max_level": 50,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 17.327860433058312,
+    "map_y": 14.019315332058065
+  },
+  {
+    "id": "hunt_pupitar",
+    "name": "Caça de Pupitar",
+    "type": "hunt",
+    "map_id": 23,
+    "legacy_map_id": 129,
+    "theme_element": "ground",
+    "world": "kanto",
+    "min_level": 70,
+    "max_level": 70,
+    "recommended_level": 55,
+    "progression_rank": 99,
+    "power_score": 277,
+    "difficulty": "Difícil",
+    "elements": [
+      "ground",
+      "rock"
+    ],
+    "encounters": [
+      {
+        "species_id": "pupitar",
+        "min_level": 55,
+        "max_level": 55,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 10.031478101267362,
+    "map_y": 41.332818174543576
+  },
+  {
+    "id": "hunt_dunsparce",
+    "name": "Caça de Dunsparce",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 128,
+    "theme_element": "normal",
+    "world": "kanto",
+    "min_level": 71,
+    "max_level": 71,
+    "recommended_level": 48,
+    "progression_rank": 100,
+    "power_score": 276,
+    "difficulty": "Difícil",
+    "elements": [
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "dunsparce",
+        "min_level": 48,
+        "max_level": 48,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 74.80576338482192,
+    "map_y": 36.52158581774316
+  },
+  {
+    "id": "hunt_graveler",
+    "name": "Caça de Graveler",
+    "type": "hunt",
+    "map_id": 23,
+    "legacy_map_id": 132,
+    "theme_element": "ground",
+    "world": "kanto",
+    "min_level": 72,
+    "max_level": 72,
+    "recommended_level": 25,
+    "progression_rank": 101,
+    "power_score": 281,
+    "difficulty": "Difícil",
+    "elements": [
+      "ground",
+      "rock"
+    ],
+    "encounters": [
+      {
+        "species_id": "graveler",
+        "min_level": 25,
+        "max_level": 25,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 25.028401696658907,
+    "map_y": 43.189821938062025
+  },
+  {
+    "id": "hunt_ariados",
+    "name": "Caça de Ariados",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 131,
+    "theme_element": "bug",
+    "world": "kanto",
+    "min_level": 73,
+    "max_level": 73,
+    "recommended_level": 48,
+    "progression_rank": 102,
+    "power_score": 280,
+    "difficulty": "Difícil",
+    "elements": [
+      "bug",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "ariados",
+        "min_level": 48,
+        "max_level": 48,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 85.09517003486714,
+    "map_y": 24.266431504923222
+  },
+  {
+    "id": "hunt_togetic",
+    "name": "Caça de Togetic",
+    "type": "hunt",
+    "map_id": 20,
+    "legacy_map_id": 130,
+    "theme_element": "fairy",
+    "world": "kanto",
+    "min_level": 73,
+    "max_level": 73,
+    "recommended_level": 48,
+    "progression_rank": 103,
+    "power_score": 278,
+    "difficulty": "Difícil",
+    "elements": [
+      "fairy",
+      "flying"
+    ],
+    "encounters": [
+      {
+        "species_id": "togetic",
+        "min_level": 48,
+        "max_level": 48,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 18.992927373831968,
+    "map_y": 20.539597300554192
+  },
+  {
+    "id": "hunt_dugtrio",
+    "name": "Caça de Dugtrio",
+    "type": "hunt",
+    "map_id": 23,
+    "legacy_map_id": 133,
+    "theme_element": "ground",
+    "world": "kanto",
+    "min_level": 74,
+    "max_level": 74,
+    "recommended_level": 42,
+    "progression_rank": 104,
+    "power_score": 282,
+    "difficulty": "Difícil",
+    "elements": [
+      "ground"
+    ],
+    "encounters": [
+      {
+        "species_id": "dugtrio",
+        "min_level": 42,
+        "max_level": 42,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 20.888425697469252,
+    "map_y": 80.37219083821427
+  },
+  {
+    "id": "hunt_marowak",
+    "name": "Caça de Marowak",
+    "type": "hunt",
+    "map_id": 23,
+    "legacy_map_id": 136,
+    "theme_element": "ground",
+    "world": "kanto",
+    "min_level": 75,
+    "max_level": 75,
+    "recommended_level": 55,
+    "progression_rank": 105,
+    "power_score": 286,
+    "difficulty": "Difícil",
+    "elements": [
+      "ground"
+    ],
+    "encounters": [
+      {
+        "species_id": "marowak",
+        "min_level": 55,
+        "max_level": 55,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 10.92345495635346,
+    "map_y": 45.79853927465473
+  },
+  {
+    "id": "hunt_gligar",
+    "name": "Caça de Gligar",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 134,
+    "theme_element": "flying",
+    "world": "kanto",
+    "min_level": 76,
+    "max_level": 76,
+    "recommended_level": 58,
+    "progression_rank": 106,
+    "power_score": 282,
+    "difficulty": "Difícil",
+    "elements": [
+      "flying",
+      "ground"
+    ],
+    "encounters": [
+      {
+        "species_id": "gligar",
+        "min_level": 58,
+        "max_level": 58,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 73.85092813677286,
+    "map_y": 45.59786699509268
+  },
+  {
+    "id": "hunt_misdreavus",
+    "name": "Caça de Misdreavus",
+    "type": "hunt",
+    "map_id": 87,
+    "legacy_map_id": 135,
+    "theme_element": "ghost",
+    "world": "kanto",
+    "min_level": 77,
+    "max_level": 77,
+    "recommended_level": 55,
+    "progression_rank": 107,
+    "power_score": 284,
+    "difficulty": "Difícil",
+    "elements": [
+      "ghost"
+    ],
+    "encounters": [
+      {
+        "species_id": "misdreavus",
+        "min_level": 55,
+        "max_level": 55,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 74.5246722164673,
+    "map_y": 67.17051145760566
+  },
+  {
+    "id": "hunt_parasect",
+    "name": "Caça de Parasect",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 138,
+    "theme_element": "bug",
+    "world": "kanto",
+    "min_level": 78,
+    "max_level": 78,
+    "recommended_level": 38,
+    "progression_rank": 108,
+    "power_score": 287,
+    "difficulty": "Difícil",
+    "elements": [
+      "bug",
+      "grass"
+    ],
+    "encounters": [
+      {
+        "species_id": "parasect",
+        "min_level": 38,
+        "max_level": 38,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 76.96317170205079,
+    "map_y": 15.303793944778842
+  },
+  {
+    "id": "hunt_shuckle",
+    "name": "Caça de Shuckle",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 137,
+    "theme_element": "bug",
+    "world": "kanto",
+    "min_level": 78,
+    "max_level": 78,
+    "recommended_level": 70,
+    "progression_rank": 109,
+    "power_score": 286,
+    "difficulty": "Difícil",
+    "elements": [
+      "bug",
+      "rock"
+    ],
+    "encounters": [
+      {
+        "species_id": "shuckle",
+        "min_level": 70,
+        "max_level": 70,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 36.592181780781786,
+    "map_y": 45.20652834033538
+  },
+  {
+    "id": "hunt_fearow",
+    "name": "Caça de Fearow",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 139,
+    "theme_element": "flying",
+    "world": "kanto",
+    "min_level": 79,
+    "max_level": 79,
+    "recommended_level": 28,
+    "progression_rank": 110,
+    "power_score": 290,
+    "difficulty": "Difícil",
+    "elements": [
+      "flying",
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "fearow",
+        "min_level": 28,
+        "max_level": 28,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 88.16732035434345,
+    "map_y": 54.33834351086436
+  },
+  {
+    "id": "hunt_haunter",
+    "name": "Caça de Haunter",
+    "type": "hunt",
+    "map_id": 87,
+    "legacy_map_id": 140,
+    "theme_element": "ghost",
+    "world": "kanto",
+    "min_level": 80,
+    "max_level": 80,
+    "recommended_level": 28,
+    "progression_rank": 111,
+    "power_score": 290,
+    "difficulty": "Difícil",
+    "elements": [
+      "ghost",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "haunter",
+        "min_level": 28,
+        "max_level": 28,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 65.12190498630876,
+    "map_y": 74.9902401240439
+  },
+  {
+    "id": "hunt_sneasel",
+    "name": "Caça de Sneasel",
+    "type": "hunt",
+    "map_id": 82,
+    "legacy_map_id": 141,
+    "theme_element": "dark",
+    "world": "kanto",
+    "min_level": 81,
+    "max_level": 81,
+    "recommended_level": 82,
+    "progression_rank": 112,
+    "power_score": 290,
+    "difficulty": "Difícil",
+    "elements": [
+      "dark",
+      "ice"
+    ],
+    "encounters": [
+      {
+        "species_id": "sneasel",
+        "min_level": 82,
+        "max_level": 82,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 38.77538001807292,
+    "map_y": 70.61706511242865
+  },
+  {
+    "id": "hunt_golbat",
+    "name": "Caça de Golbat",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 142,
+    "theme_element": "flying",
+    "world": "kanto",
+    "min_level": 82,
+    "max_level": 82,
+    "recommended_level": 35,
+    "progression_rank": 113,
+    "power_score": 292,
+    "difficulty": "Difícil",
+    "elements": [
+      "flying",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "golbat",
+        "min_level": 35,
+        "max_level": 35,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 15.588592468658572,
+    "map_y": 16.73492153262586
+  },
+  {
+    "id": "hunt_kadabra",
+    "name": "Caça de Kadabra",
+    "type": "hunt",
+    "map_id": 60,
+    "legacy_map_id": 143,
+    "theme_element": "psychic",
+    "world": "kanto",
+    "min_level": 83,
+    "max_level": 83,
+    "recommended_level": 16,
+    "progression_rank": 114,
+    "power_score": 292,
+    "difficulty": "Difícil",
+    "elements": [
+      "psychic"
+    ],
+    "encounters": [
+      {
+        "species_id": "kadabra",
+        "min_level": 16,
+        "max_level": 16,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 71.16887666780201,
+    "map_y": 75.86481151561946
+  },
+  {
+    "id": "hunt_machoke",
+    "name": "Caça de Machoke",
+    "type": "hunt",
+    "map_id": 13,
+    "legacy_map_id": 145,
+    "theme_element": "fighting",
+    "world": "kanto",
+    "min_level": 84,
+    "max_level": 84,
+    "recommended_level": 28,
+    "progression_rank": 115,
+    "power_score": 295,
+    "difficulty": "Difícil",
+    "elements": [
+      "fighting"
+    ],
+    "encounters": [
+      {
+        "species_id": "machoke",
+        "min_level": 28,
+        "max_level": 28,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 51.00311480466029,
+    "map_y": 41.99920983717719
+  },
+  {
+    "id": "hunt_venomoth",
+    "name": "Caça de Venomoth",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 147,
+    "theme_element": "bug",
+    "world": "kanto",
+    "min_level": 85,
+    "max_level": 85,
+    "recommended_level": 52,
+    "progression_rank": 116,
+    "power_score": 296,
+    "difficulty": "Difícil",
+    "elements": [
+      "bug",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "venomoth",
+        "min_level": 52,
+        "max_level": 52,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 68.89787422721398,
+    "map_y": 21.406951514169357
+  },
+  {
+    "id": "hunt_girafarig",
+    "name": "Caça de Girafarig",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 146,
+    "theme_element": "normal",
+    "world": "kanto",
+    "min_level": 85,
+    "max_level": 85,
+    "recommended_level": 68,
+    "progression_rank": 117,
+    "power_score": 295,
+    "difficulty": "Difícil",
+    "elements": [
+      "normal",
+      "psychic"
+    ],
+    "encounters": [
+      {
+        "species_id": "girafarig",
+        "min_level": 68,
+        "max_level": 68,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 69.72290897078764,
+    "map_y": 47.11001094134569
+  },
+  {
+    "id": "hunt_arbok",
+    "name": "Caça de Arbok",
+    "type": "hunt",
+    "map_id": 32,
+    "legacy_map_id": 150,
+    "theme_element": "poison",
+    "world": "kanto",
+    "min_level": 86,
+    "max_level": 86,
+    "recommended_level": 30,
+    "progression_rank": 118,
+    "power_score": 299,
+    "difficulty": "Difícil",
+    "elements": [
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "arbok",
+        "min_level": 30,
+        "max_level": 30,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 47.37169440228979,
+    "map_y": 49.747347710535955
+  },
+  {
+    "id": "hunt_magcargo",
+    "name": "Caça de Magcargo",
+    "type": "hunt",
+    "map_id": 36,
+    "legacy_map_id": 153,
+    "theme_element": "fire",
+    "world": "kanto",
+    "min_level": 87,
+    "max_level": 87,
+    "recommended_level": 87,
+    "progression_rank": 119,
+    "power_score": 300,
+    "difficulty": "Difícil",
+    "elements": [
+      "fire",
+      "rock"
+    ],
+    "encounters": [
+      {
+        "species_id": "magcargo",
+        "min_level": 87,
+        "max_level": 87,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 11.843824945356147,
+    "map_y": 72.84991111391346
+  },
+  {
+    "id": "hunt_raichu",
+    "name": "Caça de Raichu",
+    "type": "hunt",
+    "map_id": 9,
+    "legacy_map_id": 154,
+    "theme_element": "electric",
+    "world": "kanto",
+    "min_level": 88,
+    "max_level": 88,
+    "recommended_level": 40,
+    "progression_rank": 120,
+    "power_score": 302,
+    "difficulty": "Difícil",
+    "elements": [
+      "electric"
+    ],
+    "encounters": [
+      {
+        "species_id": "raichu",
+        "min_level": 40,
+        "max_level": 40,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 56.79231474669973,
+    "map_y": 18.552241254363693
+  },
+  {
+    "id": "hunt_electrode",
+    "name": "Caça de Electrode",
+    "type": "hunt",
+    "map_id": 9,
+    "legacy_map_id": 152,
+    "theme_element": "electric",
+    "world": "kanto",
+    "min_level": 89,
+    "max_level": 89,
+    "recommended_level": 58,
+    "progression_rank": 121,
+    "power_score": 300,
+    "difficulty": "Difícil",
+    "elements": [
+      "electric"
+    ],
+    "encounters": [
+      {
+        "species_id": "electrode",
+        "min_level": 58,
+        "max_level": 58,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 42.27267192835833,
+    "map_y": 17.676272616914154
+  },
+  {
+    "id": "hunt_tangela",
+    "name": "Caça de Tangela",
+    "type": "hunt",
+    "map_id": 7,
+    "legacy_map_id": 156,
+    "theme_element": "grass",
+    "world": "kanto",
+    "min_level": 90,
+    "max_level": 90,
+    "recommended_level": 58,
+    "progression_rank": 122,
+    "power_score": 304,
+    "difficulty": "Difícil",
+    "elements": [
+      "grass"
+    ],
+    "encounters": [
+      {
+        "species_id": "tangela",
+        "min_level": 58,
+        "max_level": 58,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 86.0349069474721,
+    "map_y": 20.670135413701065
+  },
+  {
+    "id": "hunt_sudowoodo",
+    "name": "Caça de Sudowoodo",
+    "type": "hunt",
+    "map_id": 158,
+    "legacy_map_id": 158,
+    "theme_element": "rock",
+    "world": "kanto",
+    "min_level": 91,
+    "max_level": 91,
+    "recommended_level": 68,
+    "progression_rank": 123,
+    "power_score": 304,
+    "difficulty": "Difícil",
+    "elements": [
+      "rock"
+    ],
+    "encounters": [
+      {
+        "species_id": "sudowoodo",
+        "min_level": 68,
+        "max_level": 68,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 14.848156412524723,
+    "map_y": 67.75719067687557
+  },
+  {
+    "id": "hunt_pidgeot",
+    "name": "Caça de Pidgeot",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 155,
+    "theme_element": "flying",
+    "world": "kanto",
+    "min_level": 91,
+    "max_level": 91,
+    "recommended_level": 50,
+    "progression_rank": 124,
+    "power_score": 303,
+    "difficulty": "Difícil",
+    "elements": [
+      "flying",
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "pidgeot",
+        "min_level": 50,
+        "max_level": 50,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 27.327105058261296,
+    "map_y": 21.530930267388936
+  },
+  {
+    "id": "hunt_sunflora",
+    "name": "Caça de Sunflora",
+    "type": "hunt",
+    "map_id": 7,
+    "legacy_map_id": 159,
+    "theme_element": "grass",
+    "world": "kanto",
+    "min_level": 92,
+    "max_level": 92,
+    "recommended_level": 52,
+    "progression_rank": 125,
+    "power_score": 304,
+    "difficulty": "Difícil",
+    "elements": [
+      "grass"
+    ],
+    "encounters": [
+      {
+        "species_id": "sunflora",
+        "min_level": 52,
+        "max_level": 52,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 34.889384247783184,
+    "map_y": 41.848382318140324
+  },
+  {
+    "id": "hunt_wigglytuff",
+    "name": "Caça de Wigglytuff",
+    "type": "hunt",
+    "map_id": 20,
+    "legacy_map_id": 161,
+    "theme_element": "fairy",
+    "world": "kanto",
+    "min_level": 93,
+    "max_level": 93,
+    "recommended_level": 45,
+    "progression_rank": 126,
+    "power_score": 305,
+    "difficulty": "Difícil",
+    "elements": [
+      "fairy",
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "wigglytuff",
+        "min_level": 45,
+        "max_level": 45,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 21.539895144644554,
+    "map_y": 10.74149538067557
+  },
+  {
+    "id": "hunt_stantler",
+    "name": "Caça de Stantler",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 160,
+    "theme_element": "normal",
+    "world": "kanto",
+    "min_level": 94,
+    "max_level": 94,
+    "recommended_level": 78,
+    "progression_rank": 127,
+    "power_score": 304,
+    "difficulty": "Difícil",
+    "elements": [
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "stantler",
+        "min_level": 78,
+        "max_level": 78,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 82.54734222031152,
+    "map_y": 62.67902737493576
+  },
+  {
+    "id": "hunt_xatu",
+    "name": "Caça de Xatu",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 163,
+    "theme_element": "flying",
+    "world": "kanto",
+    "min_level": 95,
+    "max_level": 95,
+    "recommended_level": 55,
+    "progression_rank": 128,
+    "power_score": 306,
+    "difficulty": "Difícil",
+    "elements": [
+      "flying",
+      "psychic"
+    ],
+    "encounters": [
+      {
+        "species_id": "xatu",
+        "min_level": 55,
+        "max_level": 55,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 85.96453901620215,
+    "map_y": 75.15487756917732
+  },
+  {
+    "id": "hunt_hypno",
+    "name": "Caça de Hypno",
+    "type": "hunt",
+    "map_id": 60,
+    "legacy_map_id": 162,
+    "theme_element": "psychic",
+    "world": "kanto",
+    "min_level": 96,
+    "max_level": 96,
+    "recommended_level": 50,
+    "progression_rank": 129,
+    "power_score": 306,
+    "difficulty": "Difícil",
+    "elements": [
+      "psychic"
+    ],
+    "encounters": [
+      {
+        "species_id": "hypno",
+        "min_level": 50,
+        "max_level": 50,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 76.03150245496315,
+    "map_y": 69.93977737135526
+  },
+  {
+    "id": "hunt_noctowl",
+    "name": "Caça de Noctowl",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 165,
+    "theme_element": "flying",
+    "world": "kanto",
+    "min_level": 97,
+    "max_level": 97,
+    "recommended_level": 45,
+    "progression_rank": 130,
+    "power_score": 308,
+    "difficulty": "Difícil",
+    "elements": [
+      "flying",
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "noctowl",
+        "min_level": 45,
+        "max_level": 45,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 83.86280114478316,
+    "map_y": 70.37802129476975
+  },
+  {
+    "id": "hunt_skarmory",
+    "name": "Caça de Skarmory",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 164,
+    "theme_element": "flying",
+    "world": "kanto",
+    "min_level": 98,
+    "max_level": 98,
+    "recommended_level": 90,
+    "progression_rank": 131,
+    "power_score": 307,
+    "difficulty": "Difícil",
+    "elements": [
+      "flying",
+      "steel"
+    ],
+    "encounters": [
+      {
+        "species_id": "skarmory",
+        "min_level": 90,
+        "max_level": 90,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 72.75810860906915,
+    "map_y": 33.546255431762226
+  },
+  {
+    "id": "hunt_primeape",
+    "name": "Caça de Primeape",
+    "type": "hunt",
+    "map_id": 13,
+    "legacy_map_id": 167,
+    "theme_element": "fighting",
+    "world": "kanto",
+    "min_level": 99,
+    "max_level": 99,
+    "recommended_level": 48,
+    "progression_rank": 132,
+    "power_score": 310,
+    "difficulty": "Difícil",
+    "elements": [
+      "fighting"
+    ],
+    "encounters": [
+      {
+        "species_id": "primeape",
+        "min_level": 48,
+        "max_level": 48,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 13.104166473316885,
+    "map_y": 77.32581083796688
+  },
+  {
+    "id": "hunt_mr-mime",
+    "name": "Caça de Mr Mime",
+    "type": "hunt",
+    "map_id": 20,
+    "legacy_map_id": 168,
+    "theme_element": "fairy",
+    "world": "kanto",
+    "min_level": 99,
+    "max_level": 99,
+    "recommended_level": 65,
+    "progression_rank": 133,
+    "power_score": 310,
+    "difficulty": "Difícil",
+    "elements": [
+      "fairy",
+      "psychic"
+    ],
+    "encounters": [
+      {
+        "species_id": "mr-mime",
+        "min_level": 65,
+        "max_level": 65,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 31.262102980228754,
+    "map_y": 16.32944698601468
+  },
+  {
+    "id": "hunt_hitmontop",
+    "name": "Caça de Hitmontop",
+    "type": "hunt",
+    "map_id": 13,
+    "legacy_map_id": 169,
+    "theme_element": "fighting",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 52,
+    "progression_rank": 134,
+    "power_score": 312,
+    "difficulty": "Avançada",
+    "elements": [
+      "fighting"
+    ],
+    "encounters": [
+      {
+        "species_id": "hitmontop",
+        "min_level": 52,
+        "max_level": 52,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 41.17547004200128,
+    "map_y": 77.77009703660875
+  },
+  {
+    "id": "hunt_sandslash",
+    "name": "Caça de Sandslash",
+    "type": "hunt",
+    "map_id": 23,
+    "legacy_map_id": 173,
+    "theme_element": "ground",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 32,
+    "progression_rank": 135,
+    "power_score": 316,
+    "difficulty": "Avançada",
+    "elements": [
+      "ground"
+    ],
+    "encounters": [
+      {
+        "species_id": "sandslash",
+        "min_level": 32,
+        "max_level": 32,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 21.005223470823385,
+    "map_y": 20.568441043414506
+  },
+  {
+    "id": "hunt_electabuzz",
+    "name": "Caça de Electabuzz",
+    "type": "hunt",
+    "map_id": 9,
+    "legacy_map_id": 170,
+    "theme_element": "electric",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 80,
+    "progression_rank": 136,
+    "power_score": 313,
+    "difficulty": "Avançada",
+    "elements": [
+      "electric"
+    ],
+    "encounters": [
+      {
+        "species_id": "electabuzz",
+        "min_level": 80,
+        "max_level": 80,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 43.61819734613661,
+    "map_y": 14.183415775618773
+  },
+  {
+    "id": "hunt_chansey",
+    "name": "Caça de Chansey",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 172,
+    "theme_element": "normal",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 75,
+    "progression_rank": 137,
+    "power_score": 314,
+    "difficulty": "Avançada",
+    "elements": [
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "chansey",
+        "min_level": 75,
+        "max_level": 75,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 38.38254667253477,
+    "map_y": 80.07713070862073
+  },
+  {
+    "id": "hunt_ninetales",
+    "name": "Caça de Ninetales",
+    "type": "hunt",
+    "map_id": 36,
+    "legacy_map_id": 171,
+    "theme_element": "fire",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 60,
+    "progression_rank": 138,
+    "power_score": 314,
+    "difficulty": "Avançada",
+    "elements": [
+      "fire"
+    ],
+    "encounters": [
+      {
+        "species_id": "ninetales",
+        "min_level": 60,
+        "max_level": 60,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 18.97816862612936,
+    "map_y": 57.40890675868909
+  },
+  {
+    "id": "hunt_forretress",
+    "name": "Caça de Forretress",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 175,
+    "theme_element": "bug",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 70,
+    "progression_rank": 139,
+    "power_score": 317,
+    "difficulty": "Avançada",
+    "elements": [
+      "bug",
+      "steel"
+    ],
+    "encounters": [
+      {
+        "species_id": "forretress",
+        "min_level": 70,
+        "max_level": 70,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 78.39760803511882,
+    "map_y": 47.56644070695256
+  },
+  {
+    "id": "hunt_weezing",
+    "name": "Caça de Weezing",
+    "type": "hunt",
+    "map_id": 32,
+    "legacy_map_id": 174,
+    "theme_element": "poison",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 68,
+    "progression_rank": 140,
+    "power_score": 317,
+    "difficulty": "Avançada",
+    "elements": [
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "weezing",
+        "min_level": 68,
+        "max_level": 68,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 75.19913738718166,
+    "map_y": 45.161286555897476
+  },
+  {
+    "id": "hunt_dodrio",
+    "name": "Caça de Dodrio",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 176,
+    "theme_element": "flying",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 60,
+    "progression_rank": 141,
+    "power_score": 318,
+    "difficulty": "Avançada",
+    "elements": [
+      "flying",
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "dodrio",
+        "min_level": 60,
+        "max_level": 60,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 76.51931719077393,
+    "map_y": 17.13422298421184
+  },
+  {
+    "id": "hunt_magmar",
+    "name": "Caça de Magmar",
+    "type": "hunt",
+    "map_id": 36,
+    "legacy_map_id": 177,
+    "theme_element": "fire",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 80,
+    "progression_rank": 142,
+    "power_score": 318,
+    "difficulty": "Avançada",
+    "elements": [
+      "fire"
+    ],
+    "encounters": [
+      {
+        "species_id": "magmar",
+        "min_level": 80,
+        "max_level": 80,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 18.305766488669907,
+    "map_y": 23.493665991542205
+  },
+  {
+    "id": "hunt_piloswine",
+    "name": "Caça de Piloswine",
+    "type": "hunt",
+    "map_id": 23,
+    "legacy_map_id": 179,
+    "theme_element": "ground",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 75,
+    "progression_rank": 143,
+    "power_score": 320,
+    "difficulty": "Avançada",
+    "elements": [
+      "ground",
+      "ice"
+    ],
+    "encounters": [
+      {
+        "species_id": "piloswine",
+        "min_level": 75,
+        "max_level": 75,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 17.880539523955512,
+    "map_y": 18.341058782686936
+  },
+  {
+    "id": "hunt_hitmonchan",
+    "name": "Caça de Hitmonchan",
+    "type": "hunt",
+    "map_id": 13,
+    "legacy_map_id": 178,
+    "theme_element": "fighting",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 60,
+    "progression_rank": 144,
+    "power_score": 319,
+    "difficulty": "Avançada",
+    "elements": [
+      "fighting"
+    ],
+    "encounters": [
+      {
+        "species_id": "hitmonchan",
+        "min_level": 60,
+        "max_level": 60,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 18.146297605880427,
+    "map_y": 53.92696030528824
+  },
+  {
+    "id": "hunt_miltank",
+    "name": "Caça de Miltank",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 180,
+    "theme_element": "normal",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 95,
+    "progression_rank": 145,
+    "power_score": 320,
+    "difficulty": "Avançada",
+    "elements": [
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "miltank",
+        "min_level": 95,
+        "max_level": 95,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 36.441114012911754,
+    "map_y": 77.43383764906575
+  },
+  {
+    "id": "hunt_jynx",
+    "name": "Caça de Jynx",
+    "type": "hunt",
+    "map_id": 79,
+    "legacy_map_id": 181,
+    "theme_element": "ice",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 72,
+    "progression_rank": 146,
+    "power_score": 321,
+    "difficulty": "Avançada",
+    "elements": [
+      "ice",
+      "psychic"
+    ],
+    "encounters": [
+      {
+        "species_id": "jynx",
+        "min_level": 72,
+        "max_level": 72,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 75.00724940347017,
+    "map_y": 20.500715759858608
+  },
+  {
+    "id": "hunt_bellossom",
+    "name": "Caça de Bellossom",
+    "type": "hunt",
+    "map_id": 7,
+    "legacy_map_id": 183,
+    "theme_element": "grass",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 65,
+    "progression_rank": 147,
+    "power_score": 322,
+    "difficulty": "Avançada",
+    "elements": [
+      "grass"
+    ],
+    "encounters": [
+      {
+        "species_id": "bellossom",
+        "min_level": 65,
+        "max_level": 65,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 62.32417799715827,
+    "map_y": 76.44242252977644
+  },
+  {
+    "id": "hunt_rapidash",
+    "name": "Caça de Rapidash",
+    "type": "hunt",
+    "map_id": 36,
+    "legacy_map_id": 186,
+    "theme_element": "fire",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 78,
+    "progression_rank": 148,
+    "power_score": 323,
+    "difficulty": "Avançada",
+    "elements": [
+      "fire"
+    ],
+    "encounters": [
+      {
+        "species_id": "rapidash",
+        "min_level": 78,
+        "max_level": 78,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 23.061252377659535,
+    "map_y": 23.438207074603064
+  },
+  {
+    "id": "hunt_clefable",
+    "name": "Caça de Clefable",
+    "type": "hunt",
+    "map_id": 20,
+    "legacy_map_id": 189,
+    "theme_element": "fairy",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 65,
+    "progression_rank": 149,
+    "power_score": 328,
+    "difficulty": "Avançada",
+    "elements": [
+      "fairy"
+    ],
+    "encounters": [
+      {
+        "species_id": "clefable",
+        "min_level": 65,
+        "max_level": 65,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 88.05195392946821,
+    "map_y": 74.46592431219605
+  },
+  {
+    "id": "hunt_victreebel",
+    "name": "Caça de Victreebel",
+    "type": "hunt",
+    "map_id": 7,
+    "legacy_map_id": 188,
+    "theme_element": "grass",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 62,
+    "progression_rank": 150,
+    "power_score": 326,
+    "difficulty": "Avançada",
+    "elements": [
+      "grass",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "victreebel",
+        "min_level": 62,
+        "max_level": 62,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 65.29975357385312,
+    "map_y": 78.5184059191072
+  },
+  {
+    "id": "hunt_hitmonlee",
+    "name": "Caça de Hitmonlee",
+    "type": "hunt",
+    "map_id": 13,
+    "legacy_map_id": 190,
+    "theme_element": "fighting",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 60,
+    "progression_rank": 151,
+    "power_score": 328,
+    "difficulty": "Avançada",
+    "elements": [
+      "fighting"
+    ],
+    "encounters": [
+      {
+        "species_id": "hitmonlee",
+        "min_level": 60,
+        "max_level": 60,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 22.14417744207711,
+    "map_y": 54.043120198559436
+  },
+  {
+    "id": "hunt_magneton",
+    "name": "Caça de Magneton",
+    "type": "hunt",
+    "map_id": 9,
+    "legacy_map_id": 193,
+    "theme_element": "electric",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 55,
+    "progression_rank": 152,
+    "power_score": 330,
+    "difficulty": "Avançada",
+    "elements": [
+      "electric",
+      "steel"
+    ],
+    "encounters": [
+      {
+        "species_id": "magneton",
+        "min_level": 55,
+        "max_level": 55,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 46.67967176004169,
+    "map_y": 16.43966244075705
+  },
+  {
+    "id": "hunt_tauros",
+    "name": "Caça de Tauros",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 194,
+    "theme_element": "normal",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 68,
+    "progression_rank": 153,
+    "power_score": 330,
+    "difficulty": "Avançada",
+    "elements": [
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "tauros",
+        "min_level": 68,
+        "max_level": 68,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 38.59192060701275,
+    "map_y": 74.6034697296426
+  },
+  {
+    "id": "hunt_nidoqueen",
+    "name": "Caça de Nidoqueen",
+    "type": "hunt",
+    "map_id": 23,
+    "legacy_map_id": 196,
+    "theme_element": "ground",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 55,
+    "progression_rank": 154,
+    "power_score": 332,
+    "difficulty": "Avançada",
+    "elements": [
+      "ground",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "nidoqueen",
+        "min_level": 55,
+        "max_level": 55,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 15.612475545008712,
+    "map_y": 21.175386681066108
+  },
+  {
+    "id": "hunt_meganium",
+    "name": "Caça de Meganium",
+    "type": "hunt",
+    "map_id": 7,
+    "legacy_map_id": 195,
+    "theme_element": "grass",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 58,
+    "progression_rank": 155,
+    "power_score": 331,
+    "difficulty": "Avançada",
+    "elements": [
+      "grass"
+    ],
+    "encounters": [
+      {
+        "species_id": "meganium",
+        "min_level": 58,
+        "max_level": 58,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 64.4483362350766,
+    "map_y": 73.31485251473443
+  },
+  {
+    "id": "hunt_houndoom",
+    "name": "Caça de Houndoom",
+    "type": "hunt",
+    "map_id": 82,
+    "legacy_map_id": 198,
+    "theme_element": "dark",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 72,
+    "progression_rank": 156,
+    "power_score": 332,
+    "difficulty": "Avançada",
+    "elements": [
+      "dark",
+      "fire"
+    ],
+    "encounters": [
+      {
+        "species_id": "houndoom",
+        "min_level": 72,
+        "max_level": 72,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 79.65778703888486,
+    "map_y": 44.478646050896295
+  },
+  {
+    "id": "hunt_granbull",
+    "name": "Caça de Granbull",
+    "type": "hunt",
+    "map_id": 20,
+    "legacy_map_id": 200,
+    "theme_element": "fairy",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 60,
+    "progression_rank": 157,
+    "power_score": 334,
+    "difficulty": "Avançada",
+    "elements": [
+      "fairy"
+    ],
+    "encounters": [
+      {
+        "species_id": "granbull",
+        "min_level": 60,
+        "max_level": 60,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 45.625186410087935,
+    "map_y": 45.11580875733961
+  },
+  {
+    "id": "hunt_nidoking",
+    "name": "Caça de Nidoking",
+    "type": "hunt",
+    "map_id": 23,
+    "legacy_map_id": 199,
+    "theme_element": "ground",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 55,
+    "progression_rank": 158,
+    "power_score": 333,
+    "difficulty": "Avançada",
+    "elements": [
+      "ground",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "nidoking",
+        "min_level": 55,
+        "max_level": 55,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 20.535526805285333,
+    "map_y": 60.20885633728071
+  },
+  {
+    "id": "hunt_kangaskhan",
+    "name": "Caça de Kangaskhan",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 203,
+    "theme_element": "normal",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 72,
+    "progression_rank": 159,
+    "power_score": 336,
+    "difficulty": "Avançada",
+    "elements": [
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "kangaskhan",
+        "min_level": 72,
+        "max_level": 72,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 43.93737506638,
+    "map_y": 80.16476244017244
+  },
+  {
+    "id": "hunt_vileplume",
+    "name": "Caça de Vileplume",
+    "type": "hunt",
+    "map_id": 7,
+    "legacy_map_id": 205,
+    "theme_element": "grass",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 58,
+    "progression_rank": 160,
+    "power_score": 338,
+    "difficulty": "Avançada",
+    "elements": [
+      "grass",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "vileplume",
+        "min_level": 58,
+        "max_level": 58,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 60.948363481945634,
+    "map_y": 79.23905231437126
+  },
+  {
+    "id": "hunt_crobat",
+    "name": "Caça de Crobat",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 204,
+    "theme_element": "flying",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 90,
+    "progression_rank": 161,
+    "power_score": 336,
+    "difficulty": "Avançada",
+    "elements": [
+      "flying",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "crobat",
+        "min_level": 90,
+        "max_level": 90,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 41.85338140072595,
+    "map_y": 17.465444028912515
+  },
+  {
+    "id": "hunt_aerodactyl",
+    "name": "Caça de Aerodactyl",
+    "type": "hunt",
+    "map_id": 22,
+    "legacy_map_id": 206,
+    "theme_element": "flying",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 80,
+    "progression_rank": 162,
+    "power_score": 339,
+    "difficulty": "Avançada",
+    "elements": [
+      "flying",
+      "rock"
+    ],
+    "encounters": [
+      {
+        "species_id": "aerodactyl",
+        "min_level": 80,
+        "max_level": 80,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 39.015017325692746,
+    "map_y": 14.432994048318163
+  },
+  {
+    "id": "hunt_scyther",
+    "name": "Caça de Scyther",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 209,
+    "theme_element": "bug",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 75,
+    "progression_rank": 163,
+    "power_score": 340,
+    "difficulty": "Avançada",
+    "elements": [
+      "bug",
+      "flying"
+    ],
+    "encounters": [
+      {
+        "species_id": "scyther",
+        "min_level": 75,
+        "max_level": 75,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 73.48747491656003,
+    "map_y": 48.49922680539761
+  },
+  {
+    "id": "hunt_steelix",
+    "name": "Caça de Steelix",
+    "type": "hunt",
+    "map_id": 23,
+    "legacy_map_id": 212,
+    "theme_element": "ground",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 105,
+    "progression_rank": 164,
+    "power_score": 341,
+    "difficulty": "Avançada",
+    "elements": [
+      "ground",
+      "steel"
+    ],
+    "encounters": [
+      {
+        "species_id": "steelix",
+        "min_level": 105,
+        "max_level": 105,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 22.879747776484304,
+    "map_y": 17.26323510917801
+  },
+  {
+    "id": "hunt_venusaur",
+    "name": "Caça de Venusaur",
+    "type": "hunt",
+    "map_id": 7,
+    "legacy_map_id": 214,
+    "theme_element": "grass",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 55,
+    "progression_rank": 165,
+    "power_score": 344,
+    "difficulty": "Avançada",
+    "elements": [
+      "grass",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "venusaur",
+        "min_level": 55,
+        "max_level": 55,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 67.42288287700234,
+    "map_y": 75.43381017549368
+  },
+  {
+    "id": "hunt_muk",
+    "name": "Caça de Muk",
+    "type": "hunt",
+    "map_id": 32,
+    "legacy_map_id": 219,
+    "theme_element": "poison",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 72,
+    "progression_rank": 166,
+    "power_score": 350,
+    "difficulty": "Avançada",
+    "elements": [
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "muk",
+        "min_level": 72,
+        "max_level": 72,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 77.2019887629603,
+    "map_y": 51.22179526376359
+  },
+  {
+    "id": "hunt_porygon2",
+    "name": "Caça de Porygon2",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 217,
+    "theme_element": "normal",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 88,
+    "progression_rank": 167,
+    "power_score": 348,
+    "difficulty": "Avançada",
+    "elements": [
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "porygon2",
+        "min_level": 88,
+        "max_level": 88,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 42.712753971629596,
+    "map_y": 74.59177062693874
+  },
+  {
+    "id": "hunt_gengar",
+    "name": "Caça de Gengar",
+    "type": "hunt",
+    "map_id": 87,
+    "legacy_map_id": 220,
+    "theme_element": "ghost",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 85,
+    "progression_rank": 168,
+    "power_score": 350,
+    "difficulty": "Avançada",
+    "elements": [
+      "ghost",
+      "poison"
+    ],
+    "encounters": [
+      {
+        "species_id": "gengar",
+        "min_level": 85,
+        "max_level": 85,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 64.62838983826475,
+    "map_y": 81.95033032151053
+  },
+  {
+    "id": "hunt_charizard",
+    "name": "Caça de Charizard",
+    "type": "hunt",
+    "map_id": 36,
+    "legacy_map_id": 3,
+    "theme_element": "fire",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 60,
+    "progression_rank": 169,
+    "power_score": 351,
+    "difficulty": "Avançada",
+    "elements": [
+      "fire",
+      "flying"
+    ],
+    "encounters": [
+      {
+        "species_id": "charizard",
+        "min_level": 60,
+        "max_level": 60,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 16.43659817012315,
+    "map_y": 59.98517912742231
+  },
+  {
+    "id": "hunt_typhlosion",
+    "name": "Caça de Typhlosion",
+    "type": "hunt",
+    "map_id": 36,
+    "legacy_map_id": 222,
+    "theme_element": "fire",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 62,
+    "progression_rank": 170,
+    "power_score": 351,
+    "difficulty": "Avançada",
+    "elements": [
+      "fire"
+    ],
+    "encounters": [
+      {
+        "species_id": "typhlosion",
+        "min_level": 62,
+        "max_level": 62,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 14.856299489941474,
+    "map_y": 56.39868869325854
+  },
+  {
+    "id": "hunt_pinsir",
+    "name": "Caça de Pinsir",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 224,
+    "theme_element": "bug",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 72,
+    "progression_rank": 171,
+    "power_score": 354,
+    "difficulty": "Avançada",
+    "elements": [
+      "bug"
+    ],
+    "encounters": [
+      {
+        "species_id": "pinsir",
+        "min_level": 72,
+        "max_level": 72,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 77.28161655455989,
+    "map_y": 41.912658639171624
+  },
+  {
+    "id": "hunt_alakazam",
+    "name": "Caça de Alakazam",
+    "type": "hunt",
+    "map_id": 60,
+    "legacy_map_id": 225,
+    "theme_element": "psychic",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 72,
+    "progression_rank": 172,
+    "power_score": 355,
+    "difficulty": "Mestre",
+    "elements": [
+      "psychic"
+    ],
+    "encounters": [
+      {
+        "species_id": "alakazam",
+        "min_level": 72,
+        "max_level": 72,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 87.7871103392637,
+    "map_y": 70.83901523969341
+  },
+  {
+    "id": "hunt_golem",
+    "name": "Caça de Golem",
+    "type": "hunt",
+    "map_id": 23,
+    "legacy_map_id": 227,
+    "theme_element": "ground",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 70,
+    "progression_rank": 173,
+    "power_score": 359,
+    "difficulty": "Mestre",
+    "elements": [
+      "ground",
+      "rock"
+    ],
+    "encounters": [
+      {
+        "species_id": "golem",
+        "min_level": 70,
+        "max_level": 70,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 23.69622220322443,
+    "map_y": 57.350624204761104
+  },
+  {
+    "id": "hunt_ampharos",
+    "name": "Caça de Ampharos",
+    "type": "hunt",
+    "map_id": 9,
+    "legacy_map_id": 226,
+    "theme_element": "electric",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 60,
+    "progression_rank": 174,
+    "power_score": 357,
+    "difficulty": "Mestre",
+    "elements": [
+      "electric"
+    ],
+    "encounters": [
+      {
+        "species_id": "ampharos",
+        "min_level": 60,
+        "max_level": 60,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 47.80654137619551,
+    "map_y": 12.98119368013381
+  },
+  {
+    "id": "hunt_donphan",
+    "name": "Caça de Donphan",
+    "type": "hunt",
+    "map_id": 23,
+    "legacy_map_id": 228,
+    "theme_element": "ground",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 68,
+    "progression_rank": 175,
+    "power_score": 361,
+    "difficulty": "Mestre",
+    "elements": [
+      "ground"
+    ],
+    "encounters": [
+      {
+        "species_id": "donphan",
+        "min_level": 68,
+        "max_level": 68,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 19.455237716057553,
+    "map_y": 50.418122945257025
+  },
+  {
+    "id": "hunt_heracross",
+    "name": "Caça de Heracross",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 230,
+    "theme_element": "bug",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 85,
+    "progression_rank": 176,
+    "power_score": 362,
+    "difficulty": "Mestre",
+    "elements": [
+      "bug",
+      "fighting"
+    ],
+    "encounters": [
+      {
+        "species_id": "heracross",
+        "min_level": 85,
+        "max_level": 85,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 82.07728969704851,
+    "map_y": 49.25529549860785
+  },
+  {
+    "id": "hunt_arcanine",
+    "name": "Caça de Arcanine",
+    "type": "hunt",
+    "map_id": 36,
+    "legacy_map_id": 229,
+    "theme_element": "fire",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 70,
+    "progression_rank": 177,
+    "power_score": 362,
+    "difficulty": "Mestre",
+    "elements": [
+      "fire"
+    ],
+    "encounters": [
+      {
+        "species_id": "arcanine",
+        "min_level": 70,
+        "max_level": 70,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 25.02272088203697,
+    "map_y": 20.252350473693088
+  },
+  {
+    "id": "hunt_scizor",
+    "name": "Caça de Scizor",
+    "type": "hunt",
+    "map_id": 8,
+    "legacy_map_id": 233,
+    "theme_element": "bug",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 110,
+    "progression_rank": 178,
+    "power_score": 364,
+    "difficulty": "Mestre",
+    "elements": [
+      "bug",
+      "steel"
+    ],
+    "encounters": [
+      {
+        "species_id": "scizor",
+        "min_level": 110,
+        "max_level": 110,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 71.72411249960571,
+    "map_y": 43.21991756014273
+  },
+  {
+    "id": "hunt_rhydon",
+    "name": "Caça de Rhydon",
+    "type": "hunt",
+    "map_id": 23,
+    "legacy_map_id": 236,
+    "theme_element": "ground",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 80,
+    "progression_rank": 179,
+    "power_score": 370,
+    "difficulty": "Mestre",
+    "elements": [
+      "ground",
+      "rock"
+    ],
+    "encounters": [
+      {
+        "species_id": "rhydon",
+        "min_level": 80,
+        "max_level": 80,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 14.051693632754413,
+    "map_y": 53.40286854745982
+  },
+  {
+    "id": "hunt_ursaring",
+    "name": "Caça de Ursaring",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 234,
+    "theme_element": "normal",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 65,
+    "progression_rank": 180,
+    "power_score": 364,
+    "difficulty": "Mestre",
+    "elements": [
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "ursaring",
+        "min_level": 65,
+        "max_level": 65,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 41.013485355007084,
+    "map_y": 83.04255192718942
+  },
+  {
+    "id": "hunt_machamp",
+    "name": "Caça de Machamp",
+    "type": "hunt",
+    "map_id": 13,
+    "legacy_map_id": 235,
+    "theme_element": "fighting",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 75,
+    "progression_rank": 181,
+    "power_score": 369,
+    "difficulty": "Mestre",
+    "elements": [
+      "fighting"
+    ],
+    "encounters": [
+      {
+        "species_id": "machamp",
+        "min_level": 75,
+        "max_level": 75,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 35.05495193447171,
+    "map_y": 82.08804017566126
+  },
+  {
+    "id": "hunt_exeggutor",
+    "name": "Caça de Exeggutor",
+    "type": "hunt",
+    "map_id": 7,
+    "legacy_map_id": 238,
+    "theme_element": "grass",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 70,
+    "progression_rank": 182,
+    "power_score": 371,
+    "difficulty": "Mestre",
+    "elements": [
+      "grass",
+      "psychic"
+    ],
+    "encounters": [
+      {
+        "species_id": "exeggutor",
+        "min_level": 70,
+        "max_level": 70,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 59.71876230142611,
+    "map_y": 73.10228843066211
+  },
+  {
+    "id": "hunt_snorlax",
+    "name": "Caça de Snorlax",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 240,
+    "theme_element": "normal",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 100,
+    "progression_rank": 183,
+    "power_score": 392,
+    "difficulty": "Mestre",
+    "elements": [
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "snorlax",
+        "min_level": 100,
+        "max_level": 100,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 46.47912260724469,
+    "map_y": 77.68658142334817
+  },
+  {
+    "id": "hunt_blissey",
+    "name": "Caça de Blissey",
+    "type": "hunt",
+    "map_id": 14,
+    "legacy_map_id": 241,
+    "theme_element": "normal",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 110,
+    "progression_rank": 184,
+    "power_score": 394,
+    "difficulty": "Mestre",
+    "elements": [
+      "normal"
+    ],
+    "encounters": [
+      {
+        "species_id": "blissey",
+        "min_level": 110,
+        "max_level": 110,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 33.87377768657065,
+    "map_y": 74.73709127174756
+  },
+  {
+    "id": "hunt_celebi",
+    "name": "Caça de Celebi",
+    "type": "hunt",
+    "map_id": 7,
+    "legacy_map_id": 246,
+    "theme_element": "grass",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 147,
+    "progression_rank": 185,
+    "power_score": 410,
+    "difficulty": "Mestre",
+    "elements": [
+      "grass",
+      "psychic"
+    ],
+    "encounters": [
+      {
+        "species_id": "celebi",
+        "min_level": 147,
+        "max_level": 147,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 59.761949536910606,
+    "map_y": 82.2491554619778
+  },
+  {
+    "id": "hunt_dragonite",
+    "name": "Caça de Dragonite",
+    "type": "hunt",
+    "map_id": 46,
+    "legacy_map_id": 244,
+    "theme_element": "dragon",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 148,
+    "progression_rank": 186,
+    "power_score": 409,
+    "difficulty": "Mestre",
+    "elements": [
+      "dragon",
+      "flying"
+    ],
+    "encounters": [
+      {
+        "species_id": "dragonite",
+        "min_level": 148,
+        "max_level": 148,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 87.64639149027644,
+    "map_y": 77.65634407824669
+  },
+  {
+    "id": "hunt_mew",
+    "name": "Caça de Mew",
+    "type": "hunt",
+    "map_id": 60,
+    "legacy_map_id": 245,
+    "theme_element": "psychic",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 149,
+    "progression_rank": 187,
+    "power_score": 410,
+    "difficulty": "Mestre",
+    "elements": [
+      "psychic"
+    ],
+    "encounters": [
+      {
+        "species_id": "mew",
+        "min_level": 149,
+        "max_level": 149,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 44.51863528402214,
+    "map_y": 48.13791123224062
+  },
+  {
+    "id": "hunt_tyranitar",
+    "name": "Caça de Tyranitar",
+    "type": "hunt",
+    "map_id": 82,
+    "legacy_map_id": 248,
+    "theme_element": "dark",
+    "world": "outland",
+    "min_level": 50,
+    "max_level": 50,
+    "recommended_level": 150,
+    "progression_rank": 188,
+    "power_score": 416,
+    "difficulty": "Mestre",
+    "elements": [
+      "dark",
+      "rock"
+    ],
+    "encounters": [
+      {
+        "species_id": "tyranitar",
+        "min_level": 150,
+        "max_level": 150,
+        "weight": 100
+      }
+    ],
+    "no_level_requirement": true,
+    "map_x": 57.94913849110847,
+    "map_y": 76.9363634443891
+  },
+  {
+    "id": "legendary_island_articuno",
+    "name": "Ilha Lendária de Articuno",
+    "type": "hunt",
+    "map_id": 160,
+    "theme_element": "ice",
+    "world": "legendary",
+    "min_level": 250,
+    "max_level": 250,
+    "recommended_level": 250,
+    "progression_rank": 189,
+    "power_score": 31500,
+    "difficulty": "Lendário extremo",
+    "elements": [
+      "ice",
+      "flying"
+    ],
+    "encounters": [
+      {
+        "species_id": "articuno",
+        "min_level": 250,
+        "max_level": 250,
+        "weight": 100
+      }
+    ],
+    "legendary_island": true,
+    "boss_stat_multiplier": 1.75,
+    "capture_rate_multiplier": 0.25,
+    "required_capture_item_id": "capsule_legendary",
+    "map_x": 16.987863506454225,
+    "map_y": 15.782720361531652
+  },
+  {
+    "id": "legendary_island_zapdos",
+    "name": "Ilha Lendária de Zapdos",
+    "type": "hunt",
+    "map_id": 161,
+    "theme_element": "electric",
+    "world": "legendary",
+    "min_level": 265,
+    "max_level": 265,
+    "recommended_level": 265,
+    "progression_rank": 190,
+    "power_score": 33300,
+    "difficulty": "Lendário extremo",
+    "elements": [
+      "electric",
+      "flying"
+    ],
+    "encounters": [
+      {
+        "species_id": "zapdos",
+        "min_level": 265,
+        "max_level": 265,
+        "weight": 100
+      }
+    ],
+    "legendary_island": true,
+    "boss_stat_multiplier": 1.8,
+    "capture_rate_multiplier": 0.25,
+    "required_capture_item_id": "capsule_legendary",
+    "map_x": 83.0146601392502,
+    "map_y": 43.20893391471158
+  },
+  {
+    "id": "legendary_island_moltres",
+    "name": "Ilha Lendária de Moltres",
+    "type": "hunt",
+    "map_id": 162,
+    "theme_element": "fire",
+    "world": "legendary",
+    "min_level": 280,
+    "max_level": 280,
+    "recommended_level": 280,
+    "progression_rank": 191,
+    "power_score": 35150,
+    "difficulty": "Lendário extremo",
+    "elements": [
+      "fire",
+      "flying"
+    ],
+    "encounters": [
+      {
+        "species_id": "moltres",
+        "min_level": 280,
+        "max_level": 280,
+        "weight": 100
+      }
+    ],
+    "legendary_island": true,
+    "boss_stat_multiplier": 1.85,
+    "capture_rate_multiplier": 0.25,
+    "required_capture_item_id": "capsule_legendary",
+    "map_x": 82.00710914070905,
+    "map_y": 13.699470079862829
+  },
+  {
+    "id": "legendary_island_raikou",
+    "name": "Ilha Lendária de Raikou",
+    "type": "hunt",
+    "map_id": 163,
+    "theme_element": "electric",
+    "world": "legendary",
+    "min_level": 295,
+    "max_level": 295,
+    "recommended_level": 295,
+    "progression_rank": 192,
+    "power_score": 40000,
+    "difficulty": "Lendário extremo",
+    "elements": [
+      "electric"
+    ],
+    "encounters": [
+      {
+        "species_id": "raikou",
+        "min_level": 295,
+        "max_level": 295,
+        "weight": 100
+      }
+    ],
+    "legendary_island": true,
+    "boss_stat_multiplier": 2,
+    "capture_rate_multiplier": 0.25,
+    "required_capture_item_id": "capsule_legendary",
+    "map_x": 84.28030862987966,
+    "map_y": 52.11947057586482
+  },
+  {
+    "id": "legendary_island_entei",
+    "name": "Ilha Lendária de Entei",
+    "type": "hunt",
+    "map_id": 164,
+    "theme_element": "fire",
+    "world": "legendary",
+    "min_level": 310,
+    "max_level": 310,
+    "recommended_level": 310,
+    "progression_rank": 193,
+    "power_score": 42025,
+    "difficulty": "Lendário extremo",
+    "elements": [
+      "fire"
+    ],
+    "encounters": [
+      {
+        "species_id": "entei",
+        "min_level": 310,
+        "max_level": 310,
+        "weight": 100
+      }
+    ],
+    "legendary_island": true,
+    "boss_stat_multiplier": 2.05,
+    "capture_rate_multiplier": 0.25,
+    "required_capture_item_id": "capsule_legendary",
+    "map_x": 50.63871305015398,
+    "map_y": 42.239804576476494
+  },
+  {
+    "id": "legendary_island_suicune",
+    "name": "Ilha Lendária de Suicune",
+    "type": "hunt",
+    "map_id": 165,
+    "theme_element": "water",
+    "world": "legendary",
+    "min_level": 325,
+    "max_level": 325,
+    "recommended_level": 325,
+    "progression_rank": 194,
+    "power_score": 44100,
+    "difficulty": "Lendário extremo",
+    "elements": [
+      "water"
+    ],
+    "encounters": [
+      {
+        "species_id": "suicune",
+        "min_level": 325,
+        "max_level": 325,
+        "weight": 100
+      }
+    ],
+    "legendary_island": true,
+    "boss_stat_multiplier": 2.1,
+    "capture_rate_multiplier": 0.25,
+    "required_capture_item_id": "capsule_legendary",
+    "map_x": 50.04604491906963,
+    "map_y": 79.32104956961257
+  },
+  {
+    "id": "legendary_island_mewtwo",
+    "name": "Ilha Lendária de Mewtwo",
+    "type": "hunt",
+    "map_id": 166,
+    "theme_element": "psychic",
+    "world": "legendary",
+    "min_level": 345,
+    "max_level": 345,
+    "recommended_level": 345,
+    "progression_rank": 195,
+    "power_score": 56400,
+    "difficulty": "Lendário extremo",
+    "elements": [
+      "psychic"
+    ],
+    "encounters": [
+      {
+        "species_id": "mewtwo",
+        "min_level": 345,
+        "max_level": 345,
+        "weight": 100
+      }
+    ],
+    "legendary_island": true,
+    "boss_stat_multiplier": 2.35,
+    "capture_rate_multiplier": 0.25,
+    "required_capture_item_id": "capsule_legendary",
+    "map_x": 16.885431838833462,
+    "map_y": 78.65108421395128
+  },
+  {
+    "id": "legendary_island_ho-oh",
+    "name": "Ilha Lendária de Ho-Oh",
+    "type": "hunt",
+    "map_id": 168,
+    "theme_element": "fire",
+    "world": "legendary",
+    "min_level": 365,
+    "max_level": 365,
+    "recommended_level": 365,
+    "progression_rank": 196,
+    "power_score": 58800,
+    "difficulty": "Lendário extremo",
+    "elements": [
+      "fire",
+      "flying"
+    ],
+    "encounters": [
+      {
+        "species_id": "ho-oh",
+        "min_level": 365,
+        "max_level": 365,
+        "weight": 100
+      }
+    ],
+    "legendary_island": true,
+    "boss_stat_multiplier": 2.4,
+    "capture_rate_multiplier": 0.25,
+    "required_capture_item_id": "capsule_legendary",
+    "map_x": 47.74030489977827,
+    "map_y": 51.0812079897843
+  },
+  {
+    "id": "legendary_island_lugia",
+    "name": "Ilha Lendária de Lugia",
+    "type": "hunt",
+    "map_id": 167,
+    "theme_element": "psychic",
+    "world": "legendary",
+    "min_level": 385,
+    "max_level": 385,
+    "recommended_level": 385,
+    "progression_rank": 197,
+    "power_score": 58800,
+    "difficulty": "Lendário extremo",
+    "elements": [
+      "psychic",
+      "flying"
+    ],
+    "encounters": [
+      {
+        "species_id": "lugia",
+        "min_level": 385,
+        "max_level": 385,
+        "weight": 100
+      }
+    ],
+    "legendary_island": true,
+    "boss_stat_multiplier": 2.4,
+    "capture_rate_multiplier": 0.25,
+    "required_capture_item_id": "capsule_legendary",
+    "map_x": 18.47699115415253,
+    "map_y": 43.18791123678063
+  }
+]

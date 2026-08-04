@@ -1,0 +1,118 @@
+export const APP_NAME = "POKEPIXELAPI";
+export const OWNER_ID = "2ttaPgZOdq";
+export const SECRET = "f39ce4d797a3737884c6e5b743ef01c3cb16872f7f3a2e9d3c6be5891339aa46";
+export const API_URL = "https://keyauth.win/api/1.2/";
+
+let sessionId: string | null = null;
+let hwid: string | null = null;
+let appVersion: string | null = null;
+
+async function getHwid() {
+  if (!hwid) {
+    hwid = await (window as any).electron.invoke("system:hwid");
+  }
+  return hwid;
+}
+
+async function getVersion() {
+  if (!appVersion) {
+    try {
+      appVersion = await (window as any).electron.invoke("system:app-version");
+    } catch {
+      appVersion = "1.0";
+    }
+  }
+  return appVersion;
+}
+
+export async function init(): Promise<{ success: boolean; updateAvailable?: boolean; downloadUrl?: string; message?: string }> {
+  try {
+    const version = await getVersion();
+    const url = `${API_URL}?type=init&ver=${version}&name=${encodeURIComponent(APP_NAME)}&ownerid=${OWNER_ID}`;
+    const data = await (window as any).electron.invoke("system:keyauth-request", url);
+    if (data.success) {
+      sessionId = data.sessionid;
+      return { success: true };
+    }
+
+    if (data.message === "invalidver") {
+      if (data.download) {
+        return { success: false, updateAvailable: true, downloadUrl: data.download };
+      } else {
+        return { success: false, message: "Versão inválida. Verifique o painel KeyAuth." };
+      }
+    }
+
+    console.error("KeyAuth Init Failed:", data.message);
+    return { success: false, message: data.message };
+  } catch (e) {
+    console.error("KeyAuth Init Error:", e);
+    return { success: false, message: "Erro ao conectar com o servidor de licenças" };
+  }
+}
+
+export const login = async (username: string, pass: string) => {
+  let initRes: { success: boolean; message?: string } = { success: true, message: "" };
+  if (!sessionId) {
+    const res = await init();
+    if (!res.success) initRes = res;
+  }
+  
+  if (!sessionId) return { success: false, message: initRes.message || "Falha ao conectar com o servidor" };
+
+  const _hwid = await getHwid();
+  const url = `${API_URL}?type=login&username=${encodeURIComponent(username)}&pass=${encodeURIComponent(pass)}&hwid=${_hwid}&sessionid=${sessionId}&name=${encodeURIComponent(APP_NAME)}&ownerid=${OWNER_ID}`;
+  
+  try {
+    const data = await (window as any).electron.invoke("system:keyauth-request", url);
+    if (data.success) {
+      localStorage.setItem("keyauth_user", data.info.username);
+      const expiryDate = data.info.subscriptions?.[0]?.expiry 
+        ? new Date(parseInt(data.info.subscriptions[0].expiry) * 1000).toLocaleDateString()
+        : "Vitalício";
+      localStorage.setItem("keyauth_expiry", expiryDate);
+      localStorage.setItem("keyauth_session", "valid");
+    }
+    return data;
+  } catch (e) {
+    return { success: false, message: "Erro de conexão" };
+  }
+}
+
+export async function register(username: string, pass: string, key: string) {
+  if (!sessionId) await init();
+  if (!sessionId) return { success: false, message: "Falha ao conectar com o servidor" };
+
+  const _hwid = await getHwid();
+  const url = `${API_URL}?type=register&username=${encodeURIComponent(username)}&pass=${encodeURIComponent(pass)}&key=${encodeURIComponent(key)}&hwid=${_hwid}&sessionid=${sessionId}&name=${encodeURIComponent(APP_NAME)}&ownerid=${OWNER_ID}`;
+  
+  try {
+    return await (window as any).electron.invoke("system:keyauth-request", url);
+  } catch (e) {
+    return { success: false, message: "Erro de conexão" };
+  }
+}
+
+export async function upgrade(username: string, key: string) {
+  if (!sessionId) await init();
+  if (!sessionId) return { success: false, message: "Falha ao conectar com o servidor" };
+
+  const url = `${API_URL}?type=upgrade&username=${encodeURIComponent(username)}&key=${encodeURIComponent(key)}&sessionid=${sessionId}&name=${encodeURIComponent(APP_NAME)}&ownerid=${OWNER_ID}`;
+  
+  try {
+    return await (window as any).electron.invoke("system:keyauth-request", url);
+  } catch (e) {
+    return { success: false, message: "Erro de conexão" };
+  }
+}
+
+export function isAuthenticated() {
+  return localStorage.getItem("keyauth_session") === "valid";
+}
+
+export function logout() {
+  localStorage.removeItem("keyauth_session");
+  localStorage.removeItem("keyauth_user");
+  localStorage.removeItem("keyauth_expiry");
+  window.location.reload();
+}

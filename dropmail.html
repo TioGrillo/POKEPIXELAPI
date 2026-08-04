@@ -1,0 +1,628 @@
+
+    
+  <div id="alert" class="alert alert-" data-bind="visible: alert.active, css: 'alert-' + alert.level()" style="display: none">
+    <span data-bind="html: alert.html"></span>
+    <button type="button" class="btn-close" data-bind="click: alert.close"></button>
+  </div>
+  <div class="container" id="app-banner-above">
+    <div class="row mb-2" style="overflow: auto;">
+      <div class="col">
+        <a href="https://u24.gov.ua/" rel="_nofollow"><img src="/static/img/stand-with-ukraine.png" style="width: 100%; aspect-ratio: 1092 / 120"></a>
+      </div>
+    </div>
+    <header class="row">
+      <div class="col-auto me-auto locale-links">
+        
+          <a rel="alternate" href="/ar/" hreflang="ar" title="العربية">AR</a>
+          
+        
+          <a rel="alternate" href="/cs/" hreflang="cs" title="Čeština">CS</a>
+          
+        
+          <a rel="alternate" href="/de/" hreflang="de" title="Deutsch">DE</a>
+          
+        
+           <span title="English">EN</span> 
+        
+          <a rel="alternate" href="/es/" hreflang="es" title="Español">ES</a>
+          
+        
+          <a rel="alternate" href="/fa/" hreflang="fa" title="فارسی">FA</a>
+          
+        
+          <a rel="alternate" href="/fi/" hreflang="fi" title="Suomi">FI</a>
+          
+        
+          <a rel="alternate" href="/fr/" hreflang="fr" title="Français">FR</a>
+          
+        
+          <a rel="alternate" href="/hi/" hreflang="hi" title="हिन्दी">HI</a>
+          
+        
+          <a rel="alternate" href="/id/" hreflang="id" title="Bahasa Indonesia">ID</a>
+          
+        
+          <a rel="alternate" href="/it/" hreflang="it" title="Italiano">IT</a>
+          
+        
+          <a rel="alternate" href="/ja/" hreflang="ja" title="日本語">JA</a>
+          
+        
+          <a rel="alternate" href="/ko/" hreflang="ko" title="한국어">KO</a>
+          
+        
+          <a rel="alternate" href="/nl/" hreflang="nl" title="Nederlands">NL</a>
+          
+        
+          <a rel="alternate" href="/no/" hreflang="no" title="Norsk bokmål">NO</a>
+          
+        
+          <a rel="alternate" href="/pl/" hreflang="pl" title="Polski">PL</a>
+          
+        
+          <a rel="alternate" href="/pt/" hreflang="pt" title="Português" class="highlighted-locale">PT</a>
+          
+        
+          <a rel="alternate" href="/ro/" hreflang="ro" title="Română">RO</a>
+          
+        
+          <a rel="alternate" href="/ru/" hreflang="ru" title="Русский">RU</a>
+          
+        
+          <a rel="alternate" href="/sv/" hreflang="sv" title="Svenska">SV</a>
+          
+        
+          <a rel="alternate" href="/th/" hreflang="th" title="ไทย">TH</a>
+          
+        
+          <a rel="alternate" href="/tr/" hreflang="tr" title="Türkçe">TR</a>
+          
+        
+          <a rel="alternate" href="/uk/" hreflang="uk" title="Українська">UK</a>
+          
+        
+          <a rel="alternate" href="/uz/" hreflang="uz" title="O'zbek">UZ</a>
+          
+        
+          <a rel="alternate" href="/vi/" hreflang="vi" title="Tiếng Việt">VI</a>
+          
+        
+          <a rel="alternate" href="/zh/" hreflang="zh" title="中文">ZH</a>
+          
+        
+      </div>
+      <div class="col-auto ms-auto support-buttons">
+        <button class="btn btn-default btn-sm" data-bs-toggle="modal" data-bs-target="#donate-modal">
+          <span class="bi-coin"></span> Donate
+        </button>
+      </div>
+    </header>
+    
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center display-4">Disposable email service</h1>
+        <noindex>
+          <noscript>
+            <div class="alert alert-danger">Please enable JavaScript!</div>
+          </noscript>
+          <div class="alert alert-danger" data-bind="visible: !browserOK()" style="display: none">
+            Unfortunately, your browser is not supported.  
+Please try to open this page with another browser (Chrome / Firefox / Opera / Internet Explorer 10) or update the current browser. 
+Support for your browser will be added soon.
+          </div>
+        </noindex>
+      </div>
+    </div>
+    <div class="row" data-bind="visible: ready" style="">
+      <div class="col">
+        <h3>Your temporary email:</h3>
+        <div class="card bg-light text-center addresses" data-bind="click: selectLastAddr">
+          <!-- ko foreach: emailAddresses -->
+          <div data-bind="event: {copy: onCopy}">
+            <span data-bind="text: display, click: select" tabindex="0" class="address">08ewn0sv24@mailpwr.com</span>
+            <span class="addr-toolbar">
+              <span class="bi-clipboard addr-tool clipboard has-zc" title="Copy to clipboard" data-bind="attr: {'data-clipboard-text': display()}" tabindex="0" data-clipboard-text="08ewn0sv24@mailpwr.com"></span>
+              <span class="bi-arrows-expand rotate-90 addr-tool" title="Toggle extended address" data-bind="click: toggleExpand, css: {'bi-arrows-expand': !expand(), 'bi-arrows-collapse': expand()}" tabindex="0"></span>
+              <span title="Number of incoming messages" class="badge bg-dark" data-bind="visible: messages().length > 0,
+                text: messages().length" style="display: none;">0</span>
+            </span>
+          </div>
+          <!-- /ko -->
+        </div>
+      </div>
+    </div>
+    <div class="row toolbar d-flex align-items-center justify-content-between" data-bind="visible: ready" style="">
+      <div class="btn-group col-auto">
+        <button class="btn btn-default btn-sm" data-bind="click: regAddr.registerAddress, disable: regAddr.confirmActive">
+          <span class="bi-plus-circle"></span>
+          <!-- ko if: !regAddr.useDomain() -->Additional address <!-- /ko -->
+          <!-- ko if: regAddr.useDomain() --><!-- /ko -->
+        </button>
+        <button class="btn btn-default btn-sm dropdown-toggle" data-bs-reference="parent" data-bs-toggle="dropdown" title="Choose domain">
+          <span class="caret"></span>
+        </button>
+        <div id="dropdown" class="dropdown-menu">
+          <a class="dropdown-item active" tabindex="-1" href="#" data-bind="click: function(){regAddr.selectDomain()}, css: {'active': false == regAddr.useDomainId()}">Random domain</a>
+          <a class="dropdown-item" tabindex="-1" href="#" data-bind="click: regAddr.selectPermanentRandom, css: {'active': 'permanent' == regAddr.useDomainId()}">Random — permanent only</a>
+          <div class="dropdown-divider"></div>
+          <!-- ko foreach: regAddr.domainObjects -->
+          <a class="dropdown-item" tabindex="-1" href="#" data-bind="click: function(){$root.regAddr.selectDomain(name)}, css: {'active': name == $root.regAddr.useDomain()}">
+            <span data-bind="text: '@' + name">@10mail.info</span><!-- ko if: isNew() --><!-- /ko --><!-- ko if: isExpiring() --><!-- /ko -->
+          </a>
+          
+          <a class="dropdown-item" tabindex="-1" href="#" data-bind="click: function(){$root.regAddr.selectDomain(name)}, css: {'active': name == $root.regAddr.useDomain()}">
+            <span data-bind="text: '@' + name">@10mail.org</span><!-- ko if: isNew() --><!-- /ko --><!-- ko if: isExpiring() --><!-- /ko -->
+          </a>
+          
+          <a class="dropdown-item" tabindex="-1" href="#" data-bind="click: function(){$root.regAddr.selectDomain(name)}, css: {'active': name == $root.regAddr.useDomain()}">
+            <span data-bind="text: '@' + name">@10mail.xyz</span><!-- ko if: isNew() --><!-- /ko --><!-- ko if: isExpiring() --><!-- /ko -->
+          </a>
+          
+          <a class="dropdown-item" tabindex="-1" href="#" data-bind="click: function(){$root.regAddr.selectDomain(name)}, css: {'active': name == $root.regAddr.useDomain()}">
+            <span data-bind="text: '@' + name">@dropmail.me</span><!-- ko if: isNew() --><!-- /ko --><!-- ko if: isExpiring() --><!-- /ko -->
+          </a>
+          
+          <a class="dropdown-item" tabindex="-1" href="#" data-bind="click: function(){$root.regAddr.selectDomain(name)}, css: {'active': name == $root.regAddr.useDomain()}">
+            <span data-bind="text: '@' + name">@emlhub.com</span><!-- ko if: isNew() --><!-- /ko --><!-- ko if: isExpiring() --><!-- /ko -->
+          </a>
+          
+          <a class="dropdown-item" tabindex="-1" href="#" data-bind="click: function(){$root.regAddr.selectDomain(name)}, css: {'active': name == $root.regAddr.useDomain()}">
+            <span data-bind="text: '@' + name">@emlpro.com</span><!-- ko if: isNew() --><!-- /ko --><!-- ko if: isExpiring() --><!-- /ko -->
+          </a>
+          
+          <a class="dropdown-item" tabindex="-1" href="#" data-bind="click: function(){$root.regAddr.selectDomain(name)}, css: {'active': name == $root.regAddr.useDomain()}">
+            <span data-bind="text: '@' + name">@emltmp.com</span><!-- ko if: isNew() --><!-- /ko --><!-- ko if: isExpiring() --><!-- /ko -->
+          </a>
+          
+          <a class="dropdown-item" tabindex="-1" href="#" data-bind="click: function(){$root.regAddr.selectDomain(name)}, css: {'active': name == $root.regAddr.useDomain()}">
+            <span data-bind="text: '@' + name">@freeml.net</span><!-- ko if: isNew() --><!-- /ko --><!-- ko if: isExpiring() --><!-- /ko -->
+          </a>
+          
+          <a class="dropdown-item" tabindex="-1" href="#" data-bind="click: function(){$root.regAddr.selectDomain(name)}, css: {'active': name == $root.regAddr.useDomain()}">
+            <span data-bind="text: '@' + name">@mail2me.co</span><!-- ko if: isNew() --><!-- /ko --><!-- ko if: isExpiring() --> <span class="bi-hourglass-split text-warning" data-bind="attr: {title: 'Rotating domain, expires on ' + expiresAt.toLocaleDateString()}" title="Rotating domain, expires on 09/03/2027"></span><!-- /ko -->
+          </a>
+          
+          <a class="dropdown-item" tabindex="-1" href="#" data-bind="click: function(){$root.regAddr.selectDomain(name)}, css: {'active': name == $root.regAddr.useDomain()}">
+            <span data-bind="text: '@' + name">@mailpwr.com</span><!-- ko if: isNew() --><!-- /ko --><!-- ko if: isExpiring() --><!-- /ko -->
+          </a>
+          
+          <a class="dropdown-item" tabindex="-1" href="#" data-bind="click: function(){$root.regAddr.selectDomain(name)}, css: {'active': name == $root.regAddr.useDomain()}">
+            <span data-bind="text: '@' + name">@mailtowin.com</span><!-- ko if: isNew() --><!-- /ko --><!-- ko if: isExpiring() --><!-- /ko -->
+          </a>
+          
+          <a class="dropdown-item" tabindex="-1" href="#" data-bind="click: function(){$root.regAddr.selectDomain(name)}, css: {'active': name == $root.regAddr.useDomain()}">
+            <span data-bind="text: '@' + name">@maximail.vip</span><!-- ko if: isNew() --><!-- /ko --><!-- ko if: isExpiring() --><!-- /ko -->
+          </a>
+          
+          <a class="dropdown-item" tabindex="-1" href="#" data-bind="click: function(){$root.regAddr.selectDomain(name)}, css: {'active': name == $root.regAddr.useDomain()}">
+            <span data-bind="text: '@' + name">@mimimail.me</span><!-- ko if: isNew() --><!-- /ko --><!-- ko if: isExpiring() --><!-- /ko -->
+          </a>
+          
+          <a class="dropdown-item" tabindex="-1" href="#" data-bind="click: function(){$root.regAddr.selectDomain(name)}, css: {'active': name == $root.regAddr.useDomain()}">
+            <span data-bind="text: '@' + name">@pickmail.org</span><!-- ko if: isNew() --><!-- /ko --><!-- ko if: isExpiring() --> <span class="bi-hourglass-split text-warning" data-bind="attr: {title: 'Rotating domain, expires on ' + expiresAt.toLocaleDateString()}" title="Rotating domain, expires on 09/03/2027"></span><!-- /ko -->
+          </a>
+          
+          <a class="dropdown-item" tabindex="-1" href="#" data-bind="click: function(){$root.regAddr.selectDomain(name)}, css: {'active': name == $root.regAddr.useDomain()}">
+            <span data-bind="text: '@' + name">@pickmemail.com</span><!-- ko if: isNew() --><!-- /ko --><!-- ko if: isExpiring() --> <span class="bi-hourglass-split text-warning" data-bind="attr: {title: 'Rotating domain, expires on ' + expiresAt.toLocaleDateString()}" title="Rotating domain, expires on 04/03/2027"></span><!-- /ko -->
+          </a>
+          
+          <a class="dropdown-item" tabindex="-1" href="#" data-bind="click: function(){$root.regAddr.selectDomain(name)}, css: {'active': name == $root.regAddr.useDomain()}">
+            <span data-bind="text: '@' + name">@spymail.one</span><!-- ko if: isNew() --><!-- /ko --><!-- ko if: isExpiring() --><!-- /ko -->
+          </a>
+          
+          <a class="dropdown-item" tabindex="-1" href="#" data-bind="click: function(){$root.regAddr.selectDomain(name)}, css: {'active': name == $root.regAddr.useDomain()}">
+            <span data-bind="text: '@' + name">@yomail.info</span><!-- ko if: isNew() --><!-- /ko --><!-- ko if: isExpiring() --><!-- /ko -->
+          </a>
+          <!-- /ko -->
+        </div>
+      </div>
+      <div class="col-auto">
+        <button class="btn btn-default btn-sm" data-bind="click: forwarding.toggle, css: {'active': forwarding.active}">
+          <span class="bi-shuffle"></span> Forwarding
+        </button>
+      </div>
+      <div class="col-auto">
+        <button class="btn btn-default btn-sm" data-bind="click: restore.toggle,
+          css: {'active': restore.active}">
+          <span class="bi-arrow-repeat"></span>
+          Restore access
+          <span title="1" class="badge bg-dark" data-bind="text: restore.count2,
+            attr: {title: restore.count}">1</span>
+        </button>
+      </div>
+      <div class="btn-group col-auto">
+        <button class="btn btn-default btn-sm" title="Show a popup notification of a new mail" data-bind="visible: noti.popupAvailable,
+          css: {'active': noti.popupEnabled},
+          click: noti.togglePopup">
+          <span class="bi-chat-left"></span>
+        </button>
+        <button class="btn btn-default btn-sm" title="Enable sound notification of a new mail" data-bind="css: {'active': noti.soundEnabled},
+          click: noti.toggleSound">
+          <span class="bi-volume-up"></span>
+        </button>
+      </div>
+
+      <div class="btn-group col-auto">
+        <a class="btn btn-default btn-sm" href="https://t.me/DropMailBot" target="_blank" title="@DropMailBot">
+          <span class="bi-telegram"></span>
+          Telegram bot
+        </a>
+        <a class="btn btn-default btn-sm" href="https://play.google.com/store/apps/details?id=com.dropmail.tempmail&amp;referrer=utm_source%3Ddropmail%26utm_medium%3Dweb%26utm_content%3Dmenu_btn" target="_blank">
+          <span class="bi-android2"></span>
+          Android app
+          <sup style="color: red; margin-left: -4px">new!</sup>
+        </a>
+        <a class="btn btn-default btn-sm" href="/api/" target="_blank">
+          <span class="bi-code-slash"></span>
+          <span class="d-none d-md-inline">API</span>
+          <sup style="color: red; margin-left: -4px">new!</sup>
+        </a>
+      </div>
+      <div class="col-auto ms-md-auto">
+        <button class="btn btn-default btn-sm" data-bind="click: trouble.toggle, css: {'active': trouble.active}" title="Problem / Feedback">
+          <span class="bi-life-preserver"></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="alert alert-warning" style="display: none" data-bind="visible: regAddr.confirmActive">
+      
+      You have already got <span data-bind="text: regAddr.unused().length">1</span> unused addresses:
+      (<b data-bind="text: (function(){return regAddr.unused().map(function(a){return a.address}).join(', ')})()">08ewn0sv24@mailpwr.com</b>). Are you sure you need another one?
+      <div>
+        <input type="button" class="btn btn-default" value="Yes, I do need another one!" data-bind="click: regAddr.registerAddressForce">
+        <input type="button" class="btn btn-default" value="No, thanks" data-bind="click: regAddr.cancel">
+      </div>
+    </div>
+    <div class="row">
+      <div div="" class="col-md-8" data-bind="visible: forwarding.active" style="display: none">
+        <form class="card well bg-light" data-bind="submit: forwarding.submit" data-gtm-form-interact-id="0">
+          <p>
+            Forwarding service forwards incoming emails from the temporary email to your real one. 
+Use it if you do not want to disclose your real email while receiving incoming messages. E.g., if you sign up on any site with a temporary email, you can set up forwarding in case you forget your password.<br>
+            Do not worry about Spam! Email forwarding can be disabled permanently or temporarily at any time.
+          </p>
+          <p>
+            <sup style="color: red">new!</sup>
+            Forwarding can be also enabled by sending any mail from your real mailbox to <a href="mailto:new@dropmail.me">new@dropmail.me</a> or <code>new@</code> at any other our domain.
+          </p>
+          <hr class="mt-0">
+          <fieldset>
+            
+            Enable forwarding from temporary email
+            <b data-bind="visible: emailAdresses().length == 1,
+              text: emailAdresses()[0]" style="">08ewn0sv24@mailpwr.com</b>
+            <span data-bind="visible: emailAdresses().length > 1,
+              foreach: emailAdresses" style="display: none;">
+              <div class="radio"><label>
+                <input type="radio" data-bind="checked: $root.forwarding.fromAddrSelect, attr: {value: $data}" value="08ewn0sv24@mailpwr.com" name="ko_unique_7">
+                <b data-bind="text: $data">08ewn0sv24@mailpwr.com</b>
+              </label></div>
+            </span>
+            to my real email<br>
+            
+            <input type="email" inputmode="email" name="email" placeholder="hello@world.com" class="form-control" data-bind="textInput: forwarding.toAddr"><br>
+            <label for="fwd-name">My name is</label>
+            <input type="text" name="name" id="fwd-name" class="form-control" data-bind="textInput: forwarding.toName"><br>
+            <!-- ko if: forwarding.durationOptions().length > 0 -->
+            <label>Active for</label>
+            <!-- ko if: forwarding.fromAddr() && $root.regAddr.domainExpiresAt(forwarding.fromAddr().split('@')[1]) --><!-- /ko -->
+            <select class="form-select form-select-sm" data-bind="
+                value: forwarding.activeUntilDays,
+                options: forwarding.durationOptions(),
+                optionsText: 'label',
+                optionsValue: 'days'" data-gtm-form-interact-field-id="0"><option value="1">1 day</option><option value="7">1 week</option><option value="30">1 month</option><option value="180">6 months</option><option value="365">1 year</option><option value="">No limit</option></select><br>
+            <!-- /ko -->
+            <input type="submit" class="btn btn-primary" value="Enable" data-bind="enable: forwarding.valid" disabled="">
+          </fieldset>
+        </form>
+      </div>
+
+      <div class="col-md-8" data-bind="visible: restore.active()" style="display: none">
+        <ul class="nav nav-tabs">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active" data-bind="css: {active: restore.isTab('last')}, click: restore.setTabF('last')">Last 20</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" data-bind="css: {active: restore.isTab('get')}, click: restore.setTabF('get')">Get passwords</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" data-bind="css: {active: restore.isTab('post')}, click: restore.setTabF('post')">Restore with a password</a>
+          </li>
+        </ul>
+        <div class="card well bg-light">
+          <div class="alert alert-info">
+            It is only possible to restore email addresses, not emails.
+If you need your mails later, just download them before refreshing the page.
+          </div>
+          <div id="restore-last" data-bind="visible: restore.isTab('last')">
+            <div class="d-flex flex-wrap align-items-center gap-2 mb-2" data-bind="css: {'is-invalid': !restore.dateValid()}">
+              <input type="text" inputmode="search" class="form-control" style="width: auto" placeholder="Filter..." data-bind="textInput: restore.filter">
+              <div class="d-flex align-items-center gap-1">
+                <label for="restore-from" class="mb-0">Created:</label>
+                <input id="restore-from" type="date" class="form-control" data-bind="
+                  textInput: restore.dateFrom,
+                  attr: {max: restore.dateMax, min: restore.dateMin}" max="2026-07-31" min="2010-01-01">
+                —
+                <input type="date" class="form-control" data-bind="
+                  textInput: restore.dateTo,
+                  attr: {max: restore.dateMax, min: restore.dateMin}" max="2026-07-31" min="2010-01-01">
+              </div>
+            </div>
+            <div class="d-flex flex-wrap gap-2 mb-2" data-bind="foreach: restore.prevAddresses">
+              <button type="button" class="btn btn-default btn-sm" title="Restore this address 23/07/2026, 21:06:08" data-bind="click: function() {$root.restore.restoreAddress(this.address, this.signature)},
+                attr: {title: 'Restore this address ' + created.toLocaleString()}">
+                <span data-bind="text: address">09q9y7td6w@freeml.net</span>
+                <span class="badge bg-dark" title="Number of emails received" data-bind="text: n_mails, visible: n_mails" style="display: none;">0</span>
+              </button>
+            </div>
+            <div class="d-flex flex-wrap gap-2 align-items-center">
+              <input type="button" class="btn btn-primary" value="Show more..." data-bind="click: restore.showMore,
+                enable: restore.moreAvailable" disabled="">
+              <div class="btn-group" role="group">
+                <input type="button" class="btn btn-primary" value="Download passwords" data-bind="click: restore.download,
+                  enable: restore.prevAddresses().length">
+                <input type="button" class="btn btn-primary" value="All" title="Download all stored passwords" style="border-left: 1px solid rgba(255,255,255,0.4)" data-bind="click: restore.downloadAll,
+                  enable: restore.count()">
+              </div>
+            </div>
+          </div>
+          <div id="restore-get" data-bind="visible: restore.isTab('get')" style="display: none;">
+            <pre class="user-select-all" data-bind="text: restore.accountsDump">08ewn0sv24@mailpwr.com : 0dde4ece303fcf8b546155ae00b0933bd</pre>
+          </div>
+          <div id="restore-post" data-bind="visible: restore.isTab('post')" style="display: none;">
+            <form data-bind="submit: restore.postSubmit">
+              <div class="mb-3">
+                
+                
+                  <textarea id="restore-post-textarea" rows="6" class="form-control" data-bind="textInput: restore.postRaw" placeholder="# Comments starts from ‚ '#‘.
+# Enter one pair of email:password per line.
+
+login1@dropmail.me : password1
+login2@dropmail.me password2     # separate email from password with spaces, tabs or colons"></textarea>
+                
+              </div>
+              <button type="submit" class="btn btn-primary" data-bind="enable: restore.toBeRestored().length" disabled="">
+                Restore access: <span data-bind="text: restore.toBeRestored().length">0</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 offset-md-6" data-bind="visible: trouble.active" style="display: none">
+        <form class="card well bg-light" data-bind="submit: trouble.submit">
+          <h4>Problem / Feedback</h4>
+          <fieldset>
+            Problem:
+            <div class="radio"><label>
+              <input type="radio" value="receive" data-bind="checked: trouble.reason" name="ko_unique_1">
+              Email was not received</label></div>
+            <div class="radio"><label>
+              <input type="radio" value="banned" data-bind="checked: trouble.reason" name="ko_unique_2">
+              Website rejects DropMail.me email address</label></div>
+            <div class="radio"><label>
+              <input type="radio" value="decode" data-bind="checked: trouble.reason" name="ko_unique_3">
+              The mail is not displayed correctly</label></div>
+            <div class="radio"><label>
+              <input type="radio" value="restore" data-bind="checked: trouble.reason" name="ko_unique_4">
+              I need to restore access</label></div>
+            <div class="radio"><label>
+              <input type="radio" value="other" data-bind="checked: trouble.reason" name="ko_unique_5">
+              Other problem</label></div>
+            <div class="radio"><label>
+              <input type="radio" value="feedback" data-bind="checked: trouble.reason" name="ko_unique_6">
+              Wishes / Feedback</label></div>
+          </fieldset>
+          <div class="alert alert-info" data-bind="visible: trouble.reason()=='banned'" style="display: none;">
+            
+            Tip: Try to use <a href="#tips"><u>extended addresses</u></a>, e.g.
+            <b data-bind="text: wildcard.sampleWcAddr()">08ewn0sv24-xgl@wx.mailpwr.com</b> instead of <b data-bind="text: wildcard.sampleAddr">08ewn0sv24@mailpwr.com</b>.
+          </div>
+          <div class="alert alert-info" data-bind="visible: (trouble.reason()=='restore') &amp;&amp; restore.prevAddresses().length" style="display: none;">
+            Tip: Have you tried to access the restoration function?
+            <span class="btn btn-default btn-sm" data-bind="click: restore.toggle,
+              css: {'active': restore.active}">
+              <span class="bi-arrow-repeat"></span>
+              Restore access
+            </span>
+          </div>
+          <div class="mb-3" data-bind="visible: trouble.siteVisible" style="display: none;">
+            <label>The problem occurred on a website 
+              <input name="site" inputmode="url" placeholder="facebook.com" data-bind="textInput: trouble.site"></label>
+          </div>
+          <div class="mb-3">
+            <label for="trouble-comment">Comments:</label>
+            <textarea id="trouble-comment" rows="5" class="form-control" data-bind="textInput: trouble.comment"></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="trouble-email">Your real email (fill if you need a reply):</label>
+            <input id="trouble-email" type="email" inputmode="email" placeholder="hello@world.com" class="form-control" data-bind="textInput: trouble.realMail">
+            <br>
+            <input type="submit" class="btn btn-primary w-100" value="Submit" data-bind="enable: trouble.valid" disabled="">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row" data-bind="if: !ready() &amp;&amp; browserOK()"></div>
+    <div class="row" style="display: none" data-bind="visible: connState() == 'stop-tries'">
+      <div class="alert alert-warning">
+        Unfortunately, we could not connect to the server. 
+Please ensure that your Internet connection is OK and that you have the latest web browser version.
+Also, it could be a proxy server which blocks connections.
+        <span class="btn btn-default btn-small" data-bind="click: reconnect"><span class="bi-arrow-clockwise"></span> Try again</span>
+      </div>
+    </div>
+    <div class="row">
+      <h2 class="col-12">Inbox:</h2>
+      <div class="col-12" data-bind="if: !messages().length"><em>Nothing received yet…</em></div>
+
+      <div class="col-12" data-bind="visible: ready" style="">
+        <div class="mb-2" data-bind="if: messages().length > 1"></div>
+        <ul class="list-unstyled messages-list" data-bind="foreach: messages"></ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="d-flex justify-content-between alert alert-info tips tips-collapsed" id="tips" data-bind="css: {'tips-collapsed': tips.isCollapsed}, click: tips.click">
+          <div class="p-2">
+            <span class="bi-hand-index rotate-90" title="Tips"></span>
+          </div>
+          <ul class="p-2 flex-grow-1 list-unstyled">
+            <li data-tip-id="unlim">Your disposable mailbox is valid until you refresh this page. 10 minutes is not a limit any more!</li>
+            <li data-tip-id="wildcard" style="display: none;">Each address can be extended. E.g., mail sent to
+              <b><span data-bind="text: wildcard.sampleLogin">08ewn0sv24</span><i>-qweqwe</i>@<i>wasd.</i><span data-bind="text: wildcard.sampleDomain">mailpwr.com</span></b>
+              or
+              <b><span data-bind="text: wildcard.sampleLogin">08ewn0sv24</span><i>.ololo</i>@<i>a.b.c.</i><span data-bind="text: wildcard.sampleDomain">mailpwr.com</span></b>
+              will be automatically delivered to
+              <b data-bind="text: wildcard.sampleAddr">08ewn0sv24@mailpwr.com</b>.
+              You can use it as a workaround when dropmail.me is banned or for the rapid creation of new addresses. The general rule is:
+              <code>[temp email text before (at) sign]['-' or '.' or '+' symbol][any letters]@[any letters].[temp email text after (at) sign]</code>.<br>
+              E.g.: <b data-bind="text: wildcard.sampleWcAddr()">08ewn0sv24+z29@lhoy.mailpwr.com</b>, <b data-bind="text: wildcard.sampleWcAddr(true)">08ewn0sv24@rv.mailpwr.com</b>, <b data-bind="text: wildcard.sampleWcAddr(false, true)">08ewn0sv24.2jq@mailpwr.com</b>.<br>
+              Extended addresses will be deleted simultaneously with the main address. Extended addresses work with forwarding as well.</li>
+            <li data-tip-id="timeout-forward" style="display: none;">If you used @dropmail.me address to sign up for a site/service, but the confirmation email does not come for a while - enable <span data-bind="click: forwarding.toggle, css: {'active': forwarding.active}" class="btn btn-default btn-sm"><span class="bi-shuffle"></span> forwarding</span>. Recently, websites sometimes have temporary delays of up to a few hours with sending emails . In such cases, email will be delivered to your real email address immediately after it our service receives it.</li>
+            <li data-tip-id="forward-by-smtp" style="display: none;">
+              Forwarding can be also enabled by sending any mail from your real mailbox to <a href="mailto:new@dropmail.me">new@dropmail.me</a> or <code>new@</code> at any other our domain.
+              <span data-bind="if: random3domains">For example:
+                <!-- ko foreach: random3domains -->
+                <!-- ko if: $index() > 0 --><!-- /ko -->
+                <a data-bind="attr: {'href': 'mailto:new@' + $data}, text: 'new@' + $data" href="mailto:new@spymail.one">new@spymail.one</a>
+                
+                <!-- ko if: $index() > 0 --> / <!-- /ko -->
+                <a data-bind="attr: {'href': 'mailto:new@' + $data}, text: 'new@' + $data" href="mailto:new@freeml.net">new@freeml.net</a>
+                
+                <!-- ko if: $index() > 0 --> / <!-- /ko -->
+                <a data-bind="attr: {'href': 'mailto:new@' + $data}, text: 'new@' + $data" href="mailto:new@10mail.xyz">new@10mail.xyz</a>
+                <!-- /ko -->
+              </span>
+            </li>
+            <li data-tip-id="expiring-domains" style="display: none;">
+              Some domains are <b>permanent</b> — always available, good for long-term use.
+              Others are <b>rotating</b> ⏳ — they are periodically replaced with fresh ones, so they are less likely to be blocked by spam filters.
+              Downside: once a rotating domain expires, its addresses cannot be restored and any active forwarding will stop.
+              For long-term use (creating accounts, subscriptions) choose a permanent domain;
+              for short-term use (promo campaigns, downloads, software trials) a rotating domain may be a better choice.
+            </li>
+          </ul>
+          <div class="p-2 ms-auto">
+            <div class="btn-group">
+              <span class="btn btn-outline-secondary btn-sm" title="Previous tip" data-bind="click: tips.prev"><span class="bi-chevron-left"></span></span>
+              <span class="btn btn-outline-secondary btn-sm" title="Next tip" data-bind="click: tips.next"><span class="bi-chevron-right"></span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <ul>
+          <li>Our service offers you a <b>disposable email address</b> for anonymous registrations on distrusted services or websites.</li>
+          <li><b>Unlimited mailbox lifetime</b>. 
+Unlike 10minutemail com &amp; others, email is valid for an unlimited time until you refresh/close this page.<b>10 minutes</b>, 2 hours or an infinite amount of time are available to you - just keep the page open.</li>
+          <li>Unlimited number of disposable addresses: a new email address is created by one click.</li>
+          <li>It is safe. 
+Each temporary email address is unique and assigned once. You are the only person who can receive your emails.</li>
+          <li>Built-in mail forwarding service. Disposable mailbox could be permanent.</li>
+          <li>Attachments allowed.</li>
+          <li>Instant message delivery!</li>
+          <li>No registration required.</li>
+        </ul>
+      </div>
+    </div>
+    <footer class="row">
+      <div class="col-12 text-center">
+        <a href="/privacypolicy.html" target="_blank" style="">Privacy Policy</a>
+      </div>
+    </footer>
+  </div>
+  <div class="container">
+    <div class="row" id="app-banner-container" data-bind="visible: appBanner.visible" style="display: none;">
+      <div class="col">
+        <div id="app-banner" class="d-flex alert alert-dark ms-md-5 me-md-5" data-bind="click: appBanner.onClick" style="display: none">
+          <div class="col-auto m-0 p-0">
+            <button type="button" class="btn-close" data-bind="click: appBanner.forceClose" aria-label="Close"></button>
+          </div>
+          <div class="col-auto">
+            <img src="/static/img/icon-72x72.png">
+          </div>
+          <div class="col">
+            <h5>DropMail</h5>
+            <p>Try our native mobile app 📱 for Android 🤖!</p>
+          </div>
+          <div class="ms-auto d-none d-md-inline"><button class="btn btn-default btn-sm">View</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="captcha-modal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <form data-bind="submit: captcha.submit">
+          <fieldset data-bind="attr: {'disabled': captcha.submitting}">
+            <div class="modal-header">
+              <h4 class="modal-title">Captcha</h4>
+            </div>
+            <div class="modal-body">
+              <div class="text-center" data-bind="if: captcha.visible"></div>
+              <div class="has-validation">
+                <label for="captcha-text" class="control-label">Please, enter the text you see on the picture</label>
+                <input type="text" class="form-control" id="captcha-text" data-bind="css: {'is-invalid': captcha.isWrong}, textInput: captcha.response">
+              </div>
+              <div class="alert alert-info my-2">
+                <b>Tip:</b> Screen-scraping our website? Try our API instead! <a href="/api/">https://dropmail.me/api/</a> <sup style="color: red">(beta)</sup>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bind="click: captcha.submit">Submit</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="donate-modal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h5 class="modal-title">Please donate to keep DropMail running with new domains!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <img src="/static/img/bitcoin-vpn-64.png" width="18" height="18" alt="Bitcoin"> Bitcoin
+              <code>1Gtz2S7G1TvMaMfNxQuG9qUkr33F8zWsVu</code>
+            </li>
+            <li class="list-group-item">
+              <img src="/static/img/ethereum-logo-64x64.png" width="18" height="18" alt="Ethereum"> Ethereum
+              <code>0x41D7A385EFEeed8D989eEaB1bf1255E082093674</code>
+            </li>
+            <li class="list-group-item">
+              <img src="/static/img/usdt.png" width="18" height="18" alt="USDT"> USDT ERC20
+              <code>0xECdD2Ddd013CE707645F83FA7b91af39d58EC0e3</code>
+            </li>
+            <li class="list-group-item">
+              <img src="/static/img/usdt.png" width="18" height="18" alt="USDT"> USDT TRC20
+              <code>TGNSh6SYcrhJE1bm9BLpj99Xiwi4dJs1TA</code>
+            </li>
+            <li class="list-group-item">
+              <form action="https://www.paypal.com/donate" method="post" target="_blank">
+                <input type="hidden" name="hosted_button_id" value="9RA9HFXERC9QN">
+                <button type="submit" class="btn btn-link" style="padding: 0px">
+                  <img src="/static/img/paypal_37x23.jpg" border="0" style="height: 18px; aspect-ratio: 76 / 48">
+                  Paypal
+                </button>
+              </form>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  
+
