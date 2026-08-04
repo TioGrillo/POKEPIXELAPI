@@ -16,8 +16,8 @@ username = "TioGrillo"
 repo_name = "POKEPIXELAPI"
 repo_url = f"https://api.github.com/repos/{username}/{repo_name}"
 
-release_name = "PokePixel Bot V1.0.1"
-tag_name = "v1.0.1"
+release_name = "PokePixel Bot V1.0.5"
+tag_name = "v1.0.5"
 
 print(f"Criando release {tag_name} no repositorio {username}/{repo_name}...")
 r_rel = requests.post(f"{repo_url}/releases", headers=HEADERS, json={
@@ -36,8 +36,8 @@ r_rel.raise_for_status()
 release_data = r_rel.json()
 upload_url = release_data["upload_url"].split("{")[0]
 
-file_path = r"D:\PROJETOS AT\a\POKEPIXELAPI\NovoBot\release\PokePixel Bot 0.0.0.exe"
-file_name = "PokePixel_Bot_1.0.0.exe"
+file_path = r"D:\PROJETOS AT\a\POKEPIXELAPI\NovoBot\release\PokePixel Bot 1.0.5.exe"
+file_name = "PokePixel_Bot_1.0.5.exe"
 
 if not os.path.exists(file_path):
     print(f"ERRO: Arquivo não encontrado: {file_path}")

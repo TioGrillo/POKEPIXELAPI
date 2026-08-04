@@ -278,7 +278,7 @@ ipcMain.handle("system:hwid", () => {
   return crypto.createHash("sha256").update(data).digest("hex");
 });
 
-ipcMain.handle("system:app-version", () => "1.0");
+ipcMain.handle("system:app-version", () => app.getVersion());
 
 ipcMain.handle("system:keyauth-request", async (_, url) => {
   try {
