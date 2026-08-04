@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import {
   Plus,
   Layers,
@@ -49,6 +49,15 @@ export default function Sidebar({
   const [searchQuery, setSearchQuery] = useState('');
   const [sortAsc, setSortAsc] = useState(true);
   const [lastSelectedId, setLastSelectedId] = useState<string | null>(null);
+  const [appVersion, setAppVersion] = useState('1.0.0');
+
+  useEffect(() => {
+    if (typeof window !== 'undefined' && (window as any).electron) {
+      (window as any).electron.invoke('system:app-version').then((v: string) => {
+        setAppVersion(v);
+      });
+    }
+  }, []);
 
   const filteredAccounts = useMemo(() => {
     const filtered = accounts.filter((a) =>
@@ -241,7 +250,7 @@ export default function Sidebar({
 
       {/* Version label */}
       <div className="px-3 pb-2 text-center text-[10px] text-[rgb(var(--text-faint))]">
-        NovoBot v1.0.0
+        NovoBot v{appVersion}
       </div>
     </div>
   );

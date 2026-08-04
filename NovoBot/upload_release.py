@@ -16,14 +16,14 @@ username = "TioGrillo"
 repo_name = "POKEPIXELAPI"
 repo_url = f"https://api.github.com/repos/{username}/{repo_name}"
 
-release_name = "PokePixel Bot V1.0.5"
-tag_name = "v1.0.5"
+release_name = "PokePixel Bot V1.0.6"
+tag_name = "v1.0.6"
 
 print(f"Criando release {tag_name} no repositorio {username}/{repo_name}...")
 r_rel = requests.post(f"{repo_url}/releases", headers=HEADERS, json={
     "tag_name": tag_name,
     "name": release_name,
-    "body": "Primeira versão do PokePixel Bot com segurança avançada e proteção anti-engenharia reversa (Bytenode + JS Obfuscator).",
+    "body": "Adicionado: Versões e logs de atualização agora sincronizam dinamicamente com o Github.",
     "draft": False,
     "prerelease": False
 })
@@ -36,8 +36,8 @@ r_rel.raise_for_status()
 release_data = r_rel.json()
 upload_url = release_data["upload_url"].split("{")[0]
 
-file_path = r"D:\PROJETOS AT\a\POKEPIXELAPI\NovoBot\release\PokePixel Bot 1.0.5.exe"
-file_name = "PokePixel_Bot_1.0.5.exe"
+file_path = r"D:\PROJETOS AT\a\POKEPIXELAPI\NovoBot\release\PokePixel Bot 1.0.6.exe"
+file_name = "PokePixel_Bot_1.0.6.exe"
 
 if not os.path.exists(file_path):
     print(f"ERRO: Arquivo não encontrado: {file_path}")

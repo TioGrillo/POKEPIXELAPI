@@ -212,6 +212,31 @@ export default function SettingsDialog({ onClose, accounts = [], onSaveAccounts 
     message: string;
   } | null>(null);
   
+  const [appVersion, setAppVersion] = useState('1.0.0');
+  const [releaseNotes, setReleaseNotes] = useState<string[]>([]);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined' && (window as any).electron) {
+      (window as any).electron.invoke('system:app-version').then((v: string) => {
+        setAppVersion(v);
+      });
+    }
+
+    // Fetch latest release notes from GitHub
+    fetch('https://api.github.com/repos/TioGrillo/POKEPIXELAPI/releases/latest')
+      .then((res) => res.json())
+      .then((data) => {
+        if (data && data.body) {
+          const notes = data.body
+            .split('\n')
+            .map((line: string) => line.trim().replace(/^- /, ''))
+            .filter((line: string) => line.length > 0);
+          setReleaseNotes(notes);
+        }
+      })
+      .catch(() => {});
+  }, []);
+  
   // Proxies
   const [proxyRatio, setProxyRatio] = useState(1);
   const [proxyResult, setProxyResult] = useState<{ updated: number, missing: number, newAccounts: Account[] } | null>(null);
@@ -893,7 +918,7 @@ export default function SettingsDialog({ onClose, accounts = [], onSaveAccounts 
               POKE PIXEL MANAGER
             </h2>
             <div className="px-3 py-1 rounded-full bg-[rgb(var(--bg-surface))] border border-[rgb(var(--border))] text-[11px] text-[rgb(var(--text-muted))] font-mono">
-              v1.0.0
+              v{appVersion}
             </div>
             <div className="text-center space-y-1 pt-2">
               <p className="text-[12px] text-[rgb(var(--text-secondary))]">
@@ -913,10 +938,11 @@ export default function SettingsDialog({ onClose, accounts = [], onSaveAccounts 
                 Última Atualização
               </h3>
               <ul className="text-[11px] text-[rgb(var(--text-muted))] space-y-2 list-disc pl-4">
-                <li>Melhoria: O Log Geral agora mostra os eventos recentes no topo com travamento inteligente de scroll.</li>
-                <li>Correção: Loop infinito da nurse joy no mapa bloqueado resolvido.</li>
-                <li>Segurança: Implementação de licença KeyAuth e Auto-updater embutidos!</li>
-                <li>Visual: Dezenas de novos temas de cores e nova UI de abas!</li>
+                {releaseNotes.length > 0 ? (
+                  releaseNotes.map((note, index) => <li key={index}>{note}</li>)
+                ) : (
+                  <li>Carregando informações da atualização...</li>
+                )}
               </ul>
             </div>
 
